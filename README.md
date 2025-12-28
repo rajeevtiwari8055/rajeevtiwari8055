@@ -293,7 +293,7 @@ Each project reflects my ability to turn raw information into meaningful, busine
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0072C6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajeevtiwari8055/)
 [![GitHub](https://img.shields.io/badge/GitHub-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajeevtiwari8055)
 [![Email](https://img.shields.io/badge/Email-B22222?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajeevtiwari8055@gmail.com)
-[![Website](https://img.shields.io/badge/Website-008080?style=for-the-badge&logo=google-chrome&logoColor=white)](https://rajeevgit8055hub.github.io/rajeevtiwari.github.io/)
+[![Website](https://img.shields.io/badge/Website-008080?style=for-the-badge&logo=google-chrome&logoColor=white)](https://rajeevtiwari8055.github.io/)
 </div>
 
 <!-- ## 🚀 GitHub Performance Overview -->
@@ -393,7 +393,7 @@ Each project reflects my ability to turn raw information into meaningful, busine
   <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" width="30" height="30">
 </a>
 <!-- 🌐 Website -->
-<a href="https://rajeevgit8055hub.github.io/rajeevtiwari.github.io/" target="_blank">
+<a href="https://rajeevtiwari8055.github.io/" target="_blank">
   <img src="https://cdn-icons-png.flaticon.com/512/841/841364.png" alt="Website" width="30" height="30">
 </a>
 <!-- 🟢 ORCID -->
