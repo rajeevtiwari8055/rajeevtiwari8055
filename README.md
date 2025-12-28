@@ -222,35 +222,38 @@ Each project reflects my ability to turn raw information into meaningful, busine
 <img alt="Boy working on computer" src="Blue Boy.gif" />
 
 <!-- Card Style Repositories -->
-<!-- 📊 [**Hospital Emergency Room Dashboard**](https://github.com/rajeevgit8055hub/Hospital-Emergency-Room-Dashboard) -->
-[![Hospital Emergency Room Dashboard](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Hospital-Emergency-Room-Dashboard&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Hospital-Emergency-Room-Dashboard)
+<!-- - 🖼️ [**Executive Business Presentation Vault**](https://github.com/rajeevgit8055hub/Executive-Business-Presentation-Vault) -->
+[![interactive-dashboard-portfolio](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=interactive-dashboard-portfolio&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://rajeevtiwari8055.github.io/interactive-dashboard-portfolio.github.io/)
 
-<!-- - 🧩 [**Unified Multi Extension Folder Based Data Cleaning**](https://github.com/rajeevgit8055hub/Unified-Multi-Extension-Folder-Based-Data-Cleaning) -->
-[![Unified Multi Extension Folder Based Data Cleaning](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Unified-Multi-Extension-Folder-Based-Data-Cleaning&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Unified-Multi-Extension-Folder-Based-Data-Cleaning)
+<!-- - 🖼️ [**Executive Business Presentation Vault**](https://github.com/rajeevgit8055hub/Executive-Business-Presentation-Vault) -->
+[![Executive Business Presentation Vault](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Executive-Business-Presentation-Vault&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://rajeevtiwari8055.github.io/business-presentation-portfolio.github.io/)
+
+ <!-- - 🌐 [**Dynamic Neon Glow Website**](https://github.com/rajeevgit8055hub/rajeevtiwari.github.io) -->
+[![Dynamic Neon Glow Website](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=rajeevtiwari.github.io&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/rajeevtiwari.github.io)
 
 <!-- - 🗃️ [**SmartBite Online Food Delivery DBMS**](https://github.com/rajeevgit8055hub/SmartBite-Online-Food-Delivery-DBMS) -->
 [![SmartBite Online Food Delivery DBMS](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=SmartBite-Online-Food-Delivery-DBMS&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/SmartBite-Online-Food-Delivery-DBMS)
 
-<!-- - 🖼️ [**Executive Business Presentation Vault**](https://github.com/rajeevgit8055hub/Executive-Business-Presentation-Vault) -->
-[![Executive Business Presentation Vault](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Executive-Business-Presentation-Vault&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Executive-Business-Presentation-Vault)
+<!-- - 🧩 [**Unified Multi Extension Folder Based Data Cleaning**](https://github.com/rajeevgit8055hub/Unified-Multi-Extension-Folder-Based-Data-Cleaning) -->
+[![Unified Multi Extension Folder Based Data Cleaning](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Unified-Multi-Extension-Folder-Based-Data-Cleaning&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Unified-Multi-Extension-Folder-Based-Data-Cleaning)
 
 <!-- - 🛢 [**NETFLIX Data SQL Analysis**](https://github.com/rajeevgit8055hub/NETFLIX-Data-SQL-Analysis) -->
 [![NETFLIX Data SQL Analysis](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=NETFLIX-Data-SQL-Analysis&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/NETFLIX-Data-SQL-Analysis)
- 
-<!-- - 📈 [**Nescafe Driving Coffee Sales Excellence**](https://github.com/rajeevgit8055hub/Nescafe-Driving-Coffee-Sales-Excellence) -->
+
+<!-- - 💻 [**Verified Digital Credentials**](https://github.com/rajeevgit8055hub/Verified-Digital-Credentials) 
+[![Verified Digital Credentials](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Verified-Digital-Credentials&theme=midnight-purple&cache_bust=1)](https://github.com/rajeevtiwari8055/Verified-Digital-Credentials)
+
+<!-- - 📈 [**Nescafe Driving Coffee Sales Excellence**](https://github.com/rajeevgit8055hub/Nescafe-Driving-Coffee-Sales-Excellence) 
 [![Nescafe Driving Coffee Sales Excellence](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Nescafe-Driving-Coffee-Sales-Excellence&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Nescafe-Driving-Coffee-Sales-Excellence)
 
-<!-- - 📈 [**Blinkit Grocery Analysis**](https://github.com/rajeevgit8055hub/Blinkit-Grocery-Analysis) -->
+<!-- - 📈 [**Blinkit Grocery Analysis**](https://github.com/rajeevgit8055hub/Blinkit-Grocery-Analysis) 
 [![Blinkit Grocery Analysis](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Blinkit-Grocery-Analysis&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Blinkit-Grocery-Analysis)
 
-<!-- - 📉 [**HSBC Strategic Stakeholder Intelligence**](https://github.com/rajeevgit8055hub/HSBC-Strategic-Stakeholder-Intelligence) -->
-[![HSBC Strategic Stakeholder Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=&repo=HSBC-Strategic-Stakeholder-Intelligence&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/HSBC-Strategic-Stakeholder-Intelligence)
+<!-- 📊 [**Hospital Emergency Room Dashboard**](https://github.com/rajeevgit8055hub/Hospital-Emergency-Room-Dashboard) 
+[![Hospital Emergency Room Dashboard](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Hospital-Emergency-Room-Dashboard&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Hospital-Emergency-Room-Dashboard)
 
-<!-- - 🌐 [**Dynamic Neon Glow Website**](https://github.com/rajeevgit8055hub/rajeevtiwari.github.io) -->
-[![Dynamic Neon Glow Website](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=rajeevtiwari.github.io&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/rajeevtiwari.github.io)
-
-<!-- - 💻 [**Verified Digital Credentials**](https://github.com/rajeevgit8055hub/Verified-Digital-Credentials) -->
-[![Verified Digital Credentials](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Verified-Digital-Credentials&theme=midnight-purple&cache_bust=1)](https://github.com/rajeevtiwari8055/Verified-Digital-Credentials)
+<!-- - 📉 [**HSBC Strategic Stakeholder Intelligence**](https://github.com/rajeevgit8055hub/HSBC-Strategic-Stakeholder-Intelligence) 
+[![HSBC Strategic Stakeholder Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=&repo=HSBC-Strategic-Stakeholder-Intelligence&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/HSBC-Strategic-Stakeholder-Intelligence) -->
 
 <!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=HSBC-Strategic-Stakeholder-Intelligence&theme=tokyonight&bg_color=000000&hide_border=true" />
@@ -422,37 +425,3 @@ Each project reflects my ability to turn raw information into meaningful, busine
 <br>but please avoid any commercial redistribution.<img src="Wrong.gif" width="30" alt="Wrong" />*
 
 <!-- Then end of my GitHub profile -->
-
-<!-- - 🖼️ [**Executive Business Presentation Vault**](https://github.com/rajeevgit8055hub/Executive-Business-Presentation-Vault) -->
-[![interactive-dashboard-portfolio](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=interactive-dashboard-portfolio&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://rajeevtiwari8055.github.io/interactive-dashboard-portfolio.github.io/)
-
- <!-- - 🌐 [**Dynamic Neon Glow Website**](https://github.com/rajeevgit8055hub/rajeevtiwari.github.io) -->
-[![Dynamic Neon Glow Website](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=rajeevtiwari.github.io&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/rajeevtiwari.github.io)
-
-<!-- - 🗃️ [**SmartBite Online Food Delivery DBMS**](https://github.com/rajeevgit8055hub/SmartBite-Online-Food-Delivery-DBMS) -->
-[![SmartBite Online Food Delivery DBMS](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=SmartBite-Online-Food-Delivery-DBMS&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/SmartBite-Online-Food-Delivery-DBMS)
-
-<!-- - 🧩 [**Unified Multi Extension Folder Based Data Cleaning**](https://github.com/rajeevgit8055hub/Unified-Multi-Extension-Folder-Based-Data-Cleaning) -->
-[![Unified Multi Extension Folder Based Data Cleaning](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Unified-Multi-Extension-Folder-Based-Data-Cleaning&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Unified-Multi-Extension-Folder-Based-Data-Cleaning)
-
-<!-- - 🛢 [**NETFLIX Data SQL Analysis**](https://github.com/rajeevgit8055hub/NETFLIX-Data-SQL-Analysis) -->
-[![NETFLIX Data SQL Analysis](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=NETFLIX-Data-SQL-Analysis&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/NETFLIX-Data-SQL-Analysis)
-
-<!-- - 🖼️ [**Executive Business Presentation Vault**](https://github.com/rajeevgit8055hub/Executive-Business-Presentation-Vault) -->
-[![Executive Business Presentation Vault](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Executive-Business-Presentation-Vault&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Executive-Business-Presentation-Vault)
-
-<!-- - 💻 [**Verified Digital Credentials**](https://github.com/rajeevgit8055hub/Verified-Digital-Credentials) -->
-[![Verified Digital Credentials](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Verified-Digital-Credentials&theme=midnight-purple&cache_bust=1)](https://github.com/rajeevtiwari8055/Verified-Digital-Credentials)
-
-<!-- - 📈 [**Nescafe Driving Coffee Sales Excellence**](https://github.com/rajeevgit8055hub/Nescafe-Driving-Coffee-Sales-Excellence) -->
-[![Nescafe Driving Coffee Sales Excellence](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Nescafe-Driving-Coffee-Sales-Excellence&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Nescafe-Driving-Coffee-Sales-Excellence)
-
-<!-- - 📈 [**Blinkit Grocery Analysis**](https://github.com/rajeevgit8055hub/Blinkit-Grocery-Analysis) -->
-[![Blinkit Grocery Analysis](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Blinkit-Grocery-Analysis&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Blinkit-Grocery-Analysis)
-
-<!-- 📊 [**Hospital Emergency Room Dashboard**](https://github.com/rajeevgit8055hub/Hospital-Emergency-Room-Dashboard) -->
-[![Hospital Emergency Room Dashboard](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Hospital-Emergency-Room-Dashboard&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Hospital-Emergency-Room-Dashboard)
-
-<!-- - 📉 [**HSBC Strategic Stakeholder Intelligence**](https://github.com/rajeevgit8055hub/HSBC-Strategic-Stakeholder-Intelligence) -->
-[![HSBC Strategic Stakeholder Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=&repo=HSBC-Strategic-Stakeholder-Intelligence&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/HSBC-Strategic-Stakeholder-Intelligence)
-
