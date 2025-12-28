@@ -222,8 +222,8 @@ Each project reflects my ability to turn raw information into meaningful, busine
 <img alt="Boy working on computer" src="Blue Boy.gif" />
 
 <!-- Card Style Repositories -->
-<!-- - 🖼️ [**Executive Business Presentation Vault**](https://github.com/rajeevgit8055hub/Executive-Business-Presentation-Vault) -->
-[![interactive-dashboard-portfolio](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=interactive-dashboard-portfolio&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://rajeevtiwari8055.github.io/interactive-dashboard-portfolio.github.io/)
+<!-- - 🖼️ [**Interactive Dashboard Visualizations**](https://github.com/rajeevgit8055hub/Executive-Business-Presentation-Vault) -->
+[![Interactive Dashboard Visualizations](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=interactive-dashboard-portfolio&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://rajeevtiwari8055.github.io/interactive-dashboard-portfolio.github.io/)
 
 <!-- - 🖼️ [**Executive Business Presentation Vault**](https://github.com/rajeevgit8055hub/Executive-Business-Presentation-Vault) -->
 [![Executive Business Presentation Vault](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Executive-Business-Presentation-Vault&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://rajeevtiwari8055.github.io/business-presentation-portfolio.github.io/)
