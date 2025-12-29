@@ -240,8 +240,8 @@ Each project reflects my ability to turn raw information into meaningful, busine
 <!-- - 🛢 [**NETFLIX Data SQL Analysis**](https://github.com/rajeevgit8055hub/NETFLIX-Data-SQL-Analysis) -->
 [![NETFLIX Data SQL Analysis](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=NETFLIX-Data-SQL-Analysis&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/NETFLIX-Data-SQL-Analysis)
 
-<!-- - 💻 [**Verified Digital Credentials**](https://github.com/rajeevgit8055hub/Verified-Digital-Credentials) 
-[![Verified Digital Credentials](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Verified-Digital-Credentials&theme=midnight-purple&cache_bust=1)](https://github.com/rajeevtiwari8055/Verified-Digital-Credentials)
+<!-- 💻 [**Verified Digital Credentials**](https://github.com/rajeevgit8055hub/Verified-Digital-Credentials) -->
+[![Verified Digital Credentials](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Verified-Digital-Credentials&theme=midnight-purple&cache_bust=1)](https://rajeevtiwari8055.github.io/verified-digital-credentials.github.io/)
 
 <!-- - 📈 [**Nescafe Driving Coffee Sales Excellence**](https://github.com/rajeevgit8055hub/Nescafe-Driving-Coffee-Sales-Excellence) 
 [![Nescafe Driving Coffee Sales Excellence](https://github-readme-stats.vercel.app/api/pin/?username=rajeevtiwari8055&repo=Nescafe-Driving-Coffee-Sales-Excellence&theme=midnight-purple&description_lines_count=0&cache_seconds=1)](https://github.com/rajeevtiwari8055/Nescafe-Driving-Coffee-Sales-Excellence)
