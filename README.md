@@ -70,7 +70,7 @@ and delivering data-driven solutions that create real business impact.*
 ![Power Pivot](https://img.shields.io/badge/Power_Pivot-0078D7?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![PowerPoint](https://img.shields.io/badge/PowerPoint-D24726?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
 ![MIS Reporting](https://img.shields.io/badge/MIS_Reporting-F57C00?style=for-the-badge&logo=analytics&logoColor=white)
-![VBA](https://img.shields.io/badge/VBA-865A33?style=for-the-badge&logo=microsoft-office&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-264DE4?style=for-the-badge&logo=css3&logoColor=white)
 ![Publisher](https://img.shields.io/badge/Publisher-FFB000?style=for-the-badge&logo=microsoft-office&logoColor=white)
 ![OneNote](https://img.shields.io/badge/OneNote-4B3879?style=for-the-badge&logo=microsoft-onenote&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-F29111?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -78,7 +78,6 @@ and delivering data-driven solutions that create real business impact.*
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=microsoft-powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-264DE4?style=for-the-badge&logo=css3&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
 ![Data Visualization](https://img.shields.io/badge/Data%20Visualization-8A2BE2?style=for-the-badge&logo=databricks&logoColor=white)
 ![AI Assisted Analytics](https://img.shields.io/badge/AI%20Assisted%20Analytics-teal?style=for-the-badge&logo=openai)
@@ -89,7 +88,9 @@ and delivering data-driven solutions that create real business impact.*
 [![GitHub](https://img.shields.io/badge/GitHub-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajeevgit8055hub)
 ![HTML](https://img.shields.io/badge/HTML-E44D26?style=for-the-badge&logo=html5&logoColor=white)
 
-![Jira](https://img.shields.io/badge/Jira-6A5ACD?style=for-the-badge&logo=jira&logoColor=white)
+<!-- ![VBA](https://img.shields.io/badge/VBA-865A33?style=for-the-badge&logo=microsoft-office&logoColor=white) -->
+<!-- ![Jira](https://img.shields.io/badge/Jira-6A5ACD?style=for-the-badge&logo=jira&logoColor=white) -->
+<!-- ![AI Analytics](https://img.shields.io/badge/AI-Analytics-purple?style=for-the-badge&logo=artificial-intelligence&logoColor=white) -->
 <!-- ![Data + AI](https://img.shields.io/badge/Data%20%2B%20AI-Smart-yellow?style=for-the-badge&logo=apache-spark&logoColor=white) -->
 <!-- ![Generative AI](https://img.shields.io/badge/Generative%20AI%20%26%20Prompt%20Engineering-purple?style=for-the-badge&logo=openai) -->
 <!-- ![AI Professional](https://img.shields.io/badge/Artificial%20Intelligence-For%20Professionals-black?style=for-the-badge&logo=udemy) -->
@@ -139,8 +140,6 @@ and delivering data-driven solutions that create real business impact.*
 ![seaborn](https://img.shields.io/badge/seaborn-1a73e8?style=for-the-badge&logo=seaborn&logoColor=white) -->
 
 <img alt="Skills" src="Setting.gif" />
-
-![AI Analytics](https://img.shields.io/badge/AI-Analytics-purple?style=for-the-badge&logo=artificial-intelligence&logoColor=white)
 
 <!-- ## ⚙️ Tech Stack -->
 <img src="https://media.giphy.com/media/QpVUMRUJGokfqXyfa1/giphy.gif" width="50"><img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="40">***Tech Stack***
