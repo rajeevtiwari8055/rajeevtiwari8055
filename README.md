@@ -88,9 +88,6 @@ and delivering data-driven solutions that create real business impact.*
 ![Data Cleaning & Transformation](https://img.shields.io/badge/Data%20Cleaning%20%26%20Transformation-4682B4?style=for-the-badge&logo=powerbi&logoColor=white)
 [![GitHub](https://img.shields.io/badge/GitHub-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajeevgit8055hub)
 ![n8n Automation](https://img.shields.io/badge/n8n-Automation%20%7C%20Workflows%20%7C%20AI%20Agents-FF6D00?style=for-the-badge&logo=n8n&logoColor=white)
-![AI Agents](https://img.shields.io/badge/AI-Agents-6A5ACD?style=for-the-badge&logo=openai&logoColor=white)
-![Workflow Automation](https://img.shields.io/badge/Workflow-Automation-0A66C2?style=for-the-badge&logo=githubactions&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-Automation-FF6D00?style=flat-square&logo=n8n)
 
 <!-- ![VBA](https://img.shields.io/badge/VBA-865A33?style=for-the-badge&logo=microsoft-office&logoColor=white) -->
 <!-- ![Jira](https://img.shields.io/badge/Jira-6A5ACD?style=for-the-badge&logo=jira&logoColor=white) -->
