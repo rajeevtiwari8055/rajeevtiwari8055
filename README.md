@@ -3,7 +3,7 @@
 <img width="30" alt="Green sign" src="Green sign.gif" /></h2>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=200&section=header&text=Welcome,%20to%20my%20Dataverse!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
 </div>
 
 <!-- Aspiring Data Analyst -->
@@ -425,6 +425,9 @@ Each project reflects my ability to turn raw information into meaningful, busine
   <img src="https://cdn-icons-png.flaticon.com/512/15713/15713420.png" alt="X" width="35" height="35">
 </a> -->
 </div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=120&section=footer" width="100%"/>
 
 <!-- ⚠️ Disclaimer -->
 ⚠️*Disclaimer:*<img alt="Rajeev" width="25" src="Pink Robot.png" /><img width="30" alt="Green sign" src="Green sign.gif" />*This repository is for educational use only. Feel free to fork or learn from it,
