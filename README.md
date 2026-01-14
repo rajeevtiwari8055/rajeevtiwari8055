@@ -426,11 +426,11 @@ Each project reflects my ability to turn raw information into meaningful, busine
 </a> -->
 </div>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=120&section=footer" width="100%"/>
-
 <!-- ⚠️ Disclaimer -->
 ⚠️*Disclaimer:*<img alt="Rajeev" width="25" src="Pink Robot.png" /><img width="30" alt="Green sign" src="Green sign.gif" />*This repository is for educational use only. Feel free to fork or learn from it,
 <br>but please avoid any commercial redistribution.<img src="Wrong.gif" width="30" alt="Wrong" />*
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=120&section=footer" width="100%"/>
 
 <!-- Then end of my GitHub profile -->
