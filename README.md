@@ -302,22 +302,17 @@ Each project reflects my ability to turn raw information into meaningful, busine
 <!-- ## 🚀 GitHub Performance Overview -->
 <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="50">&nbsp;<img src="Github Overview.gif" height="150" width="150">&nbsp;***GitHub Performance Overview***
 
-<!--## 🏆 GitHub Trophies -->
-<img src="Trophy1.gif" width="35">&nbsp;***GitHub Trophies***
 [![trophy](https://github-profile-trophy.vercel.app/?username=rajeevtiwari8055&theme=onedark&no-frame=true&no-bg=true&background=000000)](https://github.com/ryo-ma/github-profile-trophy)
 
-<!-- ## 🧮 GitHub Metrics -->
-<!-- <img src="Metrics.gif" height="50" width="150"> -->
-<img src="Metrics1.gif" width="40">&nbsp;***GitHub Metrics***
 <p align="center">
 <img src="https://metrics.lecoq.io/rajeevtiwari8055" />
 </p>
 
-<!-- ## 🧮 GitHub Metrics -->
-<!-- <p align="center">
+🧮 GitHub Metrics -->
+ <p align="center">
   <img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&base=header,activity,community,repositories,metadata" />
 </p> 
-<img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&languages=1&habits=1&isocalendar=1&config.timezone=Asia/Kolkata" /> -->
+<img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&languages=1&habits=1&isocalendar=1&config.timezone=Asia/Kolkata" /> 
 
 <!-- Contribution Pulse Buttons -->
 ![Security](https://img.shields.io/badge/Security-Verified-228B22?style=for-the-badge&logo=github)
