@@ -6,6 +6,15 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
 </div>
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5C0,100:00B4A0&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5C0,100:00B4A0&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
+</div>
+
+
 <!-- Aspiring Data Analyst -->
 <!-- <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=25&duration=3000&pause=1000&color=F97316&vCenter=true&width=500&lines=Aspiring+Data+Analyst" alt="Typing SVG" /> -->
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=24&duration=3000&pause=1000&color=F97316&vCenter=true&width=500&lines=Welcome+to+My+Dataverse!" alt="Typing SVG" />
