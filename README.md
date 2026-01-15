@@ -308,12 +308,6 @@ Each project reflects my ability to turn raw information into meaningful, busine
 <img src="https://metrics.lecoq.io/rajeevtiwari8055" />
 </p>
 
-🧮 GitHub Metrics -->
- <p align="center">
-  <img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&base=header,activity,community,repositories,metadata" />
-</p> 
-<img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&languages=1&habits=1&isocalendar=1&config.timezone=Asia/Kolkata" /> 
-
 <!-- Contribution Pulse Buttons -->
 ![Security](https://img.shields.io/badge/Security-Verified-228B22?style=for-the-badge&logo=github)
 ![Last Commit](https://img.shields.io/github/last-commit/rajeevtiwari8055/rajeevtiwari8055?style=for-the-badge&logo=git)
