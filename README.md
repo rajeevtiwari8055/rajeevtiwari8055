@@ -3,14 +3,6 @@
 <img width="30" alt="Green sign" src="Green sign.gif" /></h2>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5C0,100:00B4A0&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
-</div>
-
-<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5C0,100:00B4A0&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
 </div>
 
@@ -339,9 +331,10 @@ Each project reflects my ability to turn raw information into meaningful, busine
 <img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&languages=1&habits=1&isocalendar=1&config.timezone=Asia/Kolkata" /> -->
 
 ![Security](https://img.shields.io/badge/Security-Verified-228B22?style=for-the-badge&logo=github)
-![Last Commit](https://img.shields.io/github/last-commit/aditij0918/aditij0918?style=for-the-badge&logo=git)
+![Last Commit](https://img.shields.io/github/last-commit/rajeevtiwari8055/rajeevtiwari8055?style=for-the-badge&logo=git)
 ![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rajeevtiwari8055&theme=github_dark)
 ![Overall Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rajeevtiwari8055&theme=github_dark)
+![languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rajeevtiwari8055&theme=github_dark)
 ![GitHub Streak](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rajeevtiwari8055&theme=github_dark)
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak"/>
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rajeevtiwari8055&theme=github-dark&hide_border=true)
@@ -420,6 +413,6 @@ Each project reflects my ability to turn raw information into meaningful, busine
 <br>but please avoid any commercial redistribution.<img src="Wrong.gif" width="30" alt="Wrong" />*
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=120&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5C0,100:00B4A0&height=120&section=footer" width="100%"/>
 
-<!-- Then end of my GitHub profile -->
+<!-- Then end of my GitHub profile --> 
