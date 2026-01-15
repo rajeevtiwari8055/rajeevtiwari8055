@@ -76,6 +76,7 @@ and delivering data-driven solutions that create real business impact.*
 ![Power Pivot](https://img.shields.io/badge/Power_Pivot-0078D7?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![MIS Reporting](https://img.shields.io/badge/MIS_Reporting-F57C00?style=for-the-badge&logo=analytics&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-F29111?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQ-B22222?style=for-the-badge&logo=css3&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=microsoft-powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
