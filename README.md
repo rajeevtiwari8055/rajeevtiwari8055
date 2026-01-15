@@ -334,7 +334,7 @@ Each project reflects my ability to turn raw information into meaningful, busine
 ![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rajeevtiwari8055&theme=github_dark)
 ![Overall Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rajeevtiwari8055&theme=github_dark)
 ![GitHub Streak](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rajeevtiwari8055&theme=github_dark)
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055 &theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak"/>
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rajeevtiwari8055&theme=github-dark&hide_border=true)
 
 <!-- ## 🐍 Snake Contribution Animation -->
