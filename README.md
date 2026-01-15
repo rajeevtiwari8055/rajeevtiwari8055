@@ -85,9 +85,8 @@ and delivering data-driven solutions that create real business impact.*
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 [![GitHub](https://img.shields.io/badge/GitHub-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajeevgit8055hub)
 ![AI Assisted Analytics](https://img.shields.io/badge/AI%20Assisted%20Analytics-teal?style=for-the-badge&logo=openai)
-![Business Insights](https://img.shields.io/badge/Business%20Insights-2F4F4F?style=for-the-badge&logo=bar-chart&logoColor=white)
-![Data Cleaning & Transformation](https://img.shields.io/badge/Data%20Cleaning%20%26%20Transformation-4682B4?style=for-the-badge&logo=powerbi&logoColor=white)
 ![Data Visualization](https://img.shields.io/badge/Data%20Visualization-8A2BE2?style=for-the-badge&logo=databricks&logoColor=white)
+![Data Cleaning & Transformation](https://img.shields.io/badge/Data%20Cleaning%20%26%20Transformation-4682B4?style=for-the-badge&logo=powerbi&logoColor=white)
 ![n8n Automation](https://img.shields.io/badge/n8n-Automation%20%7C%20Workflows%20%7C%20AI%20Agents-FF6D00?style=for-the-badge&logo=n8n&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
 <!-- ![VBA](https://img.shields.io/badge/VBA-865A33?style=for-the-badge&logo=microsoft-office&logoColor=white) -->
