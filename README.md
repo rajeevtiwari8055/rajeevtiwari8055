@@ -310,8 +310,7 @@ Each project reflects my ability to turn raw information into meaningful, busine
 [![trophy](https://github-profile-trophy.vercel.app/?username=rajeevtiwari8055&theme=onedark&no-frame=true&no-bg=true&background=000000)](https://github.com/ryo-ma/github-profile-trophy)
 
 <!-- ## 🧠 Contribution Pulse -->
-<img width="50" alt="Contribution Pulse" src="Pulse.gif">&nbsp;***Contribution Pulse***
-<!-- <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="40" alt="Contribution Pulse Animation"> -->
+<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="50">&nbsp;***Contribution Pulse***
 
 <!-- Contribution Pulse Buttons -->
 ![Security](https://img.shields.io/badge/Security-Verified-228B22?style=for-the-badge&logo=github)
@@ -330,32 +329,13 @@ Each project reflects my ability to turn raw information into meaningful, busine
 </p> 
 <img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&languages=1&habits=1&isocalendar=1&config.timezone=Asia/Kolkata" /> -->
 
-<!-- ## 👨‍💻 Profile Summary Card -->
-<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="50">&nbsp;***Profile Summary Card***
-![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rajeevtiwari8055&theme=midnight_purple)
-
-<!-- ## 📊 GitHub Stats -->
-<img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">&nbsp;***GitHub Stats***
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajeevtiwari8055&show_icons=true&theme=midnight-purple)
-
-<!-- ## 💬 Top Languages -->
-<img src="Technology.gif" width="40">&nbsp;***Top Languages***
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajeevtiwari8055&layout=compact&theme=midnight-purple)
-<!-- <img align="right" alt="GitHub Lens" width="120" src="Lens1.gif" /> -->
-
-<!-- ## 🔝 Top Contributed Repositories-->
-<img src="https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif" width="40"/>&nbsp;***Top Contributed Repositories***
-![Top Repositories](https://github-contributor-stats.vercel.app/api?username=rajeevtiwari8055&limit=5&theme=midnight-purple&combine_all_yearly_contributions=true)
-
-<!--## 🔥 GitHub Streak -->
-<img src="Color Loading.gif" alt="Streak" width="50">&nbsp;***GitHub Streak***
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055&theme=dark&background=000000&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=AAAAAA)
-
-<!--## 📈 Activity Graph -->
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGgwbWpid3JycW56ZzVlcGc2aWExMzN3M25qY25pNzRoYjNqNWNobSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/d56Di5yqBRq9KnSZX6/giphy.webp" width="35">&nbsp;***Activity Graph***
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajeevtiwari8055&theme=nightowl&bg_color=000000&hide_border=true"/>
-</div>
+![Security](https://img.shields.io/badge/Security-Verified-228B22?style=for-the-badge&logo=github)
+![Last Commit](https://img.shields.io/github/last-commit/aditij0918/aditij0918?style=for-the-badge&logo=git)
+![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rajeevtiwari8055&theme=github_dark)
+![Overall Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rajeevtiwari8055&theme=github_dark)
+![GitHub Streak](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rajeevtiwari8055&theme=github_dark)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055 &theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak"/>
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rajeevtiwari8055&theme=github-dark&hide_border=true)
 
 <!-- ## 🐍 Snake Contribution Animation -->
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG5sc3YzYXQ1ZzI1dzNqenQ1ZmxsZzE2dDlqdzZmZ3d5bW5jajl0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kEKcOWl8RMLde/giphy.webp" width="30">&nbsp;***Snake Contribution Animation***
