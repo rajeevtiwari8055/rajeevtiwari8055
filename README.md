@@ -1,10 +1,3 @@
-
-🧮 GitHub Metrics -->
- <p align="center">
-  <img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&base=header,activity,community,repositories,metadata" />
-</p> 
-<img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&languages=1&habits=1&isocalendar=1&config.timezone=Asia/Kolkata" /> 
-
 <!-- I'm Rajeev ```verified```-->
 <h2><img width="30" alt="GitHub" src="Gitcolor.png" />&nbsp;Hi I'm <a href="https://rajeevtiwari8055.github.io/" target="_blank">Rajeev</a>
 <img width="30" alt="Green sign" src="Green sign.gif" /></h2>
