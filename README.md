@@ -1,11 +1,17 @@
+
+🧮 GitHub Metrics -->
+ <p align="center">
+  <img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&base=header,activity,community,repositories,metadata" />
+</p> 
+<img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&languages=1&habits=1&isocalendar=1&config.timezone=Asia/Kolkata" /> 
+
 <!-- I'm Rajeev ```verified```-->
 <h2><img width="30" alt="GitHub" src="Gitcolor.png" />&nbsp;Hi I'm <a href="https://rajeevtiwari8055.github.io/" target="_blank">Rajeev</a>
 <img width="30" alt="Green sign" src="Green sign.gif" /></h2>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5C0,100:00B4A0&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
 </div>
-
 
 <!-- Aspiring Data Analyst -->
 <!-- <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=25&duration=3000&pause=1000&color=F97316&vCenter=true&width=500&lines=Aspiring+Data+Analyst" alt="Typing SVG" /> -->
@@ -72,22 +78,26 @@ and delivering data-driven solutions that create real business impact.*
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Power Query](https://img.shields.io/badge/Power_Query-4F85C9?style=for-the-badge&logo=microsoft-powerquery&logoColor=white)
 ![Access](https://img.shields.io/badge/MS%20Access-B22222?style=for-the-badge&logo=microsoft-access&logoColor=white)
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
 ![Power Pivot](https://img.shields.io/badge/Power_Pivot-0078D7?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![PowerPoint](https://img.shields.io/badge/PowerPoint-D24726?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
 ![MIS Reporting](https://img.shields.io/badge/MIS_Reporting-F57C00?style=for-the-badge&logo=analytics&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-264DE4?style=for-the-badge&logo=css3&logoColor=white)
+![Publisher](https://img.shields.io/badge/Publisher-FFB000?style=for-the-badge&logo=microsoft-office&logoColor=white)
+![OneNote](https://img.shields.io/badge/OneNote-4B3879?style=for-the-badge&logo=microsoft-onenote&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-F29111?style=for-the-badge&logo=postgresql&logoColor=white)
+![Outlook](https://img.shields.io/badge/Outlook-0072C6?style=for-the-badge&logo=microsoft-outlook&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=microsoft-powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-[![GitHub](https://img.shields.io/badge/GitHub-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajeevgit8055hub)
-![HTML](https://img.shields.io/badge/HTML-E44D26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-264DE4?style=for-the-badge&logo=css3&logoColor=white)
-![AI Assisted Analytics](https://img.shields.io/badge/AI%20Assisted%20Analytics-teal?style=for-the-badge&logo=openai)
 ![Data Visualization](https://img.shields.io/badge/Data%20Visualization-8A2BE2?style=for-the-badge&logo=databricks&logoColor=white)
-![PowerPoint](https://img.shields.io/badge/PowerPoint-D24726?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
+![AI Assisted Analytics](https://img.shields.io/badge/AI%20Assisted%20Analytics-teal?style=for-the-badge&logo=openai)
+![Business Insights](https://img.shields.io/badge/Business%20Insights-2F4F4F?style=for-the-badge&logo=bar-chart&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E44D26?style=for-the-badge&logo=html5&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
 ![Data Cleaning & Transformation](https://img.shields.io/badge/Data%20Cleaning%20%26%20Transformation-4682B4?style=for-the-badge&logo=powerbi&logoColor=white)
+[![GitHub](https://img.shields.io/badge/GitHub-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajeevgit8055hub)
 ![n8n Automation](https://img.shields.io/badge/n8n-Automation%20%7C%20Workflows%20%7C%20AI%20Agents-FF6D00?style=for-the-badge&logo=n8n&logoColor=white)
 
 <!-- ![VBA](https://img.shields.io/badge/VBA-865A33?style=for-the-badge&logo=microsoft-office&logoColor=white) -->
@@ -300,23 +310,59 @@ Each project reflects my ability to turn raw information into meaningful, busine
 </div>
 
 <!-- ## 🚀 GitHub Performance Overview -->
-<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="50">&nbsp;<img src="Github Overview.gif" height="150" width="150">&nbsp;***GitHub Performance Overview***
+<img src="Performance.gif" width="40"><img src="Github Overview.gif" height="150" width="150">&nbsp;***GitHub Performance Overview***
 
+<!--## 🏆 GitHub Trophies -->
+<img src="Trophy1.gif" width="35">&nbsp;***GitHub Trophies***
 [![trophy](https://github-profile-trophy.vercel.app/?username=rajeevtiwari8055&theme=onedark&no-frame=true&no-bg=true&background=000000)](https://github.com/ryo-ma/github-profile-trophy)
 
-<p align="center">
-<img src="https://metrics.lecoq.io/rajeevtiwari8055" />
-</p>
+<!-- ## 🧠 Contribution Pulse -->
+<img width="50" alt="Contribution Pulse" src="Pulse.gif">&nbsp;***Contribution Pulse***
+<!-- <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="40" alt="Contribution Pulse Animation"> -->
 
 <!-- Contribution Pulse Buttons -->
 ![Security](https://img.shields.io/badge/Security-Verified-228B22?style=for-the-badge&logo=github)
 ![Last Commit](https://img.shields.io/github/last-commit/rajeevtiwari8055/rajeevtiwari8055?style=for-the-badge&logo=git)
-![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rajeevtiwari8055&theme=github_dark)
-![Overall Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rajeevtiwari8055&theme=github_dark)
-![languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rajeevtiwari8055&theme=github_dark)
-![GitHub Streak](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rajeevtiwari8055&theme=github_dark)
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak"/>
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rajeevtiwari8055&theme=github-dark&hide_border=true)
+
+<!-- ## 🧮 GitHub Metrics -->
+<!-- <img src="Metrics.gif" height="50" width="150"> -->
+<img src="Metrics1.gif" width="40">&nbsp;***GitHub Metrics***
+<p align="center">
+<img src="https://metrics.lecoq.io/rajeevtiwari8055" />
+</p>
+
+<!-- ## 🧮 GitHub Metrics -->
+<!-- <p align="center">
+  <img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&base=header,activity,community,repositories,metadata" />
+</p> 
+<img src="https://metrics.lecoq.io/rajeevtiwari8055?template=classic&languages=1&habits=1&isocalendar=1&config.timezone=Asia/Kolkata" /> -->
+
+<!-- ## 👨‍💻 Profile Summary Card -->
+<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="50">&nbsp;***Profile Summary Card***
+![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rajeevtiwari8055&theme=midnight_purple)
+
+<!-- ## 📊 GitHub Stats -->
+<img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">&nbsp;***GitHub Stats***
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajeevtiwari8055&show_icons=true&theme=midnight-purple)
+
+<!-- ## 💬 Top Languages -->
+<img src="Technology.gif" width="40">&nbsp;***Top Languages***
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajeevtiwari8055&layout=compact&theme=midnight-purple)
+<!-- <img align="right" alt="GitHub Lens" width="120" src="Lens1.gif" /> -->
+
+<!-- ## 🔝 Top Contributed Repositories-->
+<img src="https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif" width="40"/>&nbsp;***Top Contributed Repositories***
+![Top Repositories](https://github-contributor-stats.vercel.app/api?username=rajeevtiwari8055&limit=5&theme=midnight-purple&combine_all_yearly_contributions=true)
+
+<!--## 🔥 GitHub Streak -->
+<img src="Color Loading.gif" alt="Streak" width="50">&nbsp;***GitHub Streak***
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055&theme=dark&background=000000&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=AAAAAA)
+
+<!--## 📈 Activity Graph -->
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGgwbWpid3JycW56ZzVlcGc2aWExMzN3M25qY25pNzRoYjNqNWNobSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/d56Di5yqBRq9KnSZX6/giphy.webp" width="35">&nbsp;***Activity Graph***
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajeevtiwari8055&theme=nightowl&bg_color=000000&hide_border=true"/>
+</div>
 
 <!-- ## 🐍 Snake Contribution Animation -->
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG5sc3YzYXQ1ZzI1dzNqenQ1ZmxsZzE2dDlqdzZmZ3d5bW5jajl0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kEKcOWl8RMLde/giphy.webp" width="30">&nbsp;***Snake Contribution Animation***
@@ -392,6 +438,6 @@ Each project reflects my ability to turn raw information into meaningful, busine
 <br>but please avoid any commercial redistribution.<img src="Wrong.gif" width="30" alt="Wrong" />*
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5C0,100:00B4A0&height=120&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=120&section=footer" width="100%"/>
 
-<!-- Then end of my GitHub profile --> 
+<!-- Then end of my GitHub profile -->
