@@ -348,7 +348,8 @@ Each project reflects my ability to turn raw information into meaningful, busine
 
 <!--## 🔥 GitHub Streak -->
 <img src="Color Loading.gif" alt="Streak" width="50">&nbsp;***GitHub Streak***
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055&theme=dark&background=000000&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=AAAAAA)
+<!-- ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055&theme=dark&background=000000&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=AAAAAA) -->
+  <img src="https://streak-stats.demolab.com?user=rajeevtiwari8055 &locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
 
 <!--## 📈 Activity Graph -->
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGgwbWpid3JycW56ZzVlcGc2aWExMzN3M25qY25pNzRoYjNqNWNobSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/d56Di5yqBRq9KnSZX6/giphy.webp" width="35">&nbsp;***Activity Graph***
