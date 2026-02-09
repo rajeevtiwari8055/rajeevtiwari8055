@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>main</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Montserrat}
+body{background:#0a0a0a;color:#fff;overflow-x:hidden}
+
+nav{position:fixed;top:20px;left:50%;transform:translateX(-50%);width:92%;z-index:999;display:flex;justify-content:space-between;
+align-items:center;padding:18px 40px;border-radius:22px;background:rgba(255,255,255,0.08);backdrop-filter:blur(18px);
+-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,0.15);box-shadow:0 8px 30px rgba(0,0,0,0.35)}
+nav h2{font-family:'Dancing Script',cursive;color:#ff004c;letter-spacing:2px;font-size:28px;font-weight:600;text-shadow:0 0 12px rgba(255,255,255,0.25);} 
+nav ul{display:flex;gap:20px;list-style:none;}
+nav ul li a{color:#fff;text-decoration:none;font-size:16px;display:flex;align-items:center;gap:5px;transition:all .3s ease;}
+nav ul li a i{font-size:16px;opacity:.85;}
+nav ul li a:hover{color:#ff004c;letter-spacing:1px;transform:scale(1.08);}
+
+/* HERO */
+.hero{height:100vh;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e') center/cover;
+display:flex;flex-direction:column;justify-content:center;padding-left:10%;padding-top:60px;transition: transform 0.5s ease, opacity 0.5s ease;}
+.hero.scrolled {transform: scale(0.95);opacity: 0.85;}
+.big-title{font-size:140px;font-weight:800;background:linear-gradient(90deg,#ff004c,#ff7b00,#ff00ea);
+-webkit-background-clip:text;color:transparent;animation:glow 4s infinite alternate}
+.type{font-size:28px;height:40px;margin-top:10px}
+@keyframes glow{from{filter:drop-shadow(0 0 10px #ff004c)}to{filter:drop-shadow(0 0 40px #ff00ea)}}
+
+/* WORDS WITH INTENT STACK */
+/* .puzzle{padding:100px 10%;background:#f4f4f4;color:#b3261e} */
+.puzzle{padding:100px 10%;background:#fff;color:#b3261e;display:flex;align-items:center;gap:80px;}
+.puzzle-img{flex:0 0 45%; transition:transform 0.8s cubic-bezier(.22,1,.36,1);}
+.puzzle-img img{width:100%;height:auto;display:block;
+clip-path:polygon(0 0,92% 0,100% 50%,92% 100%,0 100%,6% 50%);filter:drop-shadow(0 25px 50px rgba(0,0,0,.25));}
+.puzzle-img:hover{transform:rotate(3deg) translateY(-8px);}
+/* 🔒 TEXT RIGHT – unchanged look */
+.stack{font-weight:800;line-height:.9;flex:1;white-space:nowrap;}
+.stack .J1{font-size:160px}
+.stack .M2{font-size:110px;margin-left:140px}
+.stack .C3{font-size:85px;margin-left:280px}
+@media(max-width:900px){.puzzle{flex-direction:column;text-align:center;}
+.puzzle-img{margin-top:40px;}}
+
+/* ABOUT */
+.about{display:flex;gap:60px;padding:120px 10%;align-items:center;flex-wrap:wrap}
+.about img{width:420px;border-radius:25px}
+.about p{max-width:550px;line-height:1.7;font-family:'Playfair Display', serif;font-style:italic;}
+
+/* IMAGE GRID BACKGROUND ONLY BEHIND IMAGE */
+.img-grid-wrap{position:relative;display:inline-block}.img-grid-wrap::before{content:"";position:absolute;inset:-15px;background-image:linear-gradient(#ffffff20 1px,transparent 1px),
+linear-gradient(90deg,#ffffff20 1px,transparent 1px);background-size:30px 30px;z-index:-1;border-radius:20px}
+
+/* IMAGE CUT SHAPES */
+.cut1{clip-path:polygon(0 0,100% 10%,90% 100%,0 90%)}
+.cut2{clip-path:circle(50% at 50% 50%)}
+.cut3{clip-path:polygon(0 15%,100% 0,100% 85%,0 100%)}
+.cut4{clip-path:ellipse(50% 40% at 50% 50%)}
+.cut5{clip-path:polygon(0 15%,100% 0,100% 85%,0 100%)}
+.cut6{clip-path:polygon(10% 0,90% 0,100% 90%,0 100%)}
+.cut7{clip-path:ellipse(50% 40% at 50% 50%)}
+
+/* ALT SECTIONS */
+.alt{display:flex;align-items:center;gap:50px;padding:110px 10%;flex-wrap:wrap}
+.alt:nth-child(even){background:#111}
+.alt img{width:420px;border-radius:30px;clip-path:polygon(0 0,100% 10%,90% 100%,0 90%)}
+.alt p{max-width:500px;opacity:.85;font-size:18px;font-style:italic;}
+
+/* SPEECH SECTION */
+.speech{display:flex;align-items:center;gap:50px;padding:80px 10%;flex-wrap:wrap}
+.speech{background:#041733;padding:120px 10%;position:relative}
+.speech img{width:420px;border-radius:30px;clip-path:polygon(0 0,100% 10%,90% 100%,0 90%)}
+.speech p{max-width:500px;opacity:.85;font-size:18px;font-style:italic;}
+
+/* GRID POSTS */
+.posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;padding:100px 10%;background:#b3261e;color:#111}
+.posts img{width:100%;border-radius:25px}
+
+/* CONNECT */
+.connect{background:#eee;color:#b3261e;padding:120px 12%}
+.connect h2{font-size:70px;margin-bottom:20px}
+.icons i{font-size:32px;margin:20px;cursor:pointer;transition:.4s}
+.icons i:hover{transform:scale(1.3);color: black;}
+
+/* TYPING MAIL*/
+#mymail{display: inline-block;font-family:'Montserrat', 'Poppins', sans-serif;font-size:1.1rem;font-weight:500;letter-spacing:0.8px;color:#b3261e;padding:6px 14px;border-radius:20px;border:1px solid #b3261e;position:relative;}
+#mymail::after{content: "|";margin-left: 6px;color: #b3261e;animation: blink 1s infinite;font-weight: 300;}
+@keyframes blink{0%,50%{opacity:1;}51%,100%{opacity:0;}}
+
+/* TYPING MAIL*/
+#progress-bar {position: fixed;top:0; left:0;height:4px;background:#ff004c;width:0%;z-index:9999;}
+
+/* BACK TO TOP BUTTON (same style as toggle) */
+#topBtn {position:fixed;left:20px;bottom:20px;padding:12px 16px;border-radius:30px;background:#111;border:2px solid #ff004c;color:#ff004c;cursor:pointer;z-index:999;display:none;transition:0.3s;font-size:18px;}
+#topBtn:hover {transform: scale(1.05);}
+
+#morphing-text {transition: opacity 0.3s ease-in-out;}
+
+/* FOOTER */
+footer{background:#000;padding:60px 10%}
+.footer-links{display:flex;flex-wrap:wrap;gap:20px;margin-bottom:20px}
+.footer-links a{color:#fff;text-decoration:none;font-size:14px}
+.footer-links a:hover{color:#ff004c}
+
+.typing-text{background:#000;color:#ff004c;font-family:'Fira Code', monospace;
+font-size:24px;font-weight:400;padding:6px 14px;border-radius:6px;display:inline-flex;align-items:center;}
+.cursor{margin-left:4px;animation:blink 1s infinite;}
+@keyframes blink{0%,50%,100%{opacity:1}25%,75%{opacity:0}}
+
+/* ZIGZAG IMAGE */
+.zigzag{clip-path:polygon(0 0,100% 8%,100% 92%,0 100%);width:80%;margin:80px auto;display:block;border:5px solid #ff00ea;border-radius:30px;box-shadow:0 0 30px #ff00ea;}
+/* FLASHY BOXES */
+.container{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:40px;padding:80px;}
+.box{padding:50px;background:linear-gradient(145deg,#1a1a1a,#000);border-radius:40px;text-align:center;transition:.6s;border:2px solid #ff004c;}
+.box:hover{transform:scale(1.08) rotate(-1deg);box-shadow:0 0 50px #ff004c;}
+
+/* hamburger icon */
+.menu-icon{display:none;font-size:22px;cursor:pointer;}
+@media(max-width:900px){nav{padding:16px 25px;}.menu-icon{display:block;}.nav-links{position:absolute;top:70px;left:50%;transform:translateX(-50%);
+width:90%;background:rgba(0,0,0,0.85);backdrop-filter:blur(15px);border-radius:18px;flex-direction:column;gap:18px;padding:25px;
+display:none;text-align:center;animation:fadeIn .3s ease;opacity:0;transition:opacity .3s ease, transform .3s ease;}
+.nav-links.active{display:flex;opacity:1;transform:translateX(-50%) translateY(0);}}
+@keyframes fadeIn{from{opacity:0; transform:translateX(-50%) translateY(-10px);}to{opacity:1; transform:translateX(-50%) translateY(0);}}
+
+/* CARDS */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px;padding:120px 10%}
+.card{padding:40px;border-radius:25px;background:#111;border:2px solid var(--primary);transition:.5s}
+.card:hover{transform:scale(1.07);box-shadow:0 0 40px var(--primary)}
+
+/* POSTS GRID */
+.postsP{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px;padding:110px 10%;background:#b26cff;color:#111}
+.postsP img{width:100%;border-radius:20px}
+
+/* GRID BACKGROUND SECTIONS */
+.gridbg{background-image:linear-gradient(#ffffff12 1px,transparent 1px),linear-gradient(90deg,#ffffff12 1px,transparent 1px);background-size:40px 40px}
+
+/* QUOTES */
+.quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px;padding:110px 10%}
+.quote{padding:40px;border-radius:20px;background:linear-gradient(145deg,#222,#000);border:2px solid #ff004c}
+
+/* SHOWCASE CARDS */
+.section{padding:120px 10%; background-color: orangered;}
+.section h2{font-size:60px;margin-bottom:30px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+.card{padding:40px;border-radius:25px;background:#111;border:2px solid #ff004c}
+
+/* ===== Toggle Style/LIGHT MODE FIX (NO DESIGN CHANGE) ===== */
+body.light-mode{background:#f5f5f5;color:#111;}
+/* text fix */
+body.light-mode p,body.light-mode h1,body.light-mode h2,body.light-mode h3,body.light-mode h4,body.light-mode a{color:#111 !important;}
+/* navbar */
+body.light-mode nav{background:rgba(255,255,255,0.85);}body.light-mode nav a{color:#111 !important;}
+/* sections background fix */
+body.light-mode .alt,body.light-mode .speech,body.light-mode footer{background:#f0f0f0;color:#111;}
+/* cards & boxes */
+body.light-mode .box,body.light-mode .quote,body.light-mode .card{background:#ffffff;color:#111;border-color:#b3261e;}
+/* typing box fix */
+body.light-mode .typing-text{background:#fff;color:#b3261e;}
+/* grid & colored sections */
+body.light-mode .posts,body.light-mode .postsP{color:#111;}
+/* keep hero dark (intentional) */
+body.light-mode .hero{color:#fff;}
+/* THEME TOGGLE BUTTON */
+.theme-toggle{position:fixed;right:20px;bottom:20px;padding:12px 16px;border-radius:30px;background:#111;border:2px solid #ff004c;color:#ff004c;cursor:pointer;z-index:999;transition:.3s;}
+body.light-mode .theme-toggle{background:#fff;color:#111;border-color:#b3261e;}
+
+/* HERO padding-left: clamp(24px, 6vw, 100px);*/
+.heroH{background:linear-gradient(120deg,#ff004c,#5f27cd);position:relative;padding:100px 10%;}
+.heroH-content{max-width:600px;}
+.heroH h1{font-size:64px;font-weight:800;line-height:1.1;}
+.heroH h1 span{color:#000;background:#fff;padding:5px 12px;}
+.heroH p{margin-top:20px;font-size:18px;opacity:.9;}
+.typing{margin-top:25px;font-size:22px;font-weight:600;}
+/* .heroH-img{position:absolute;right:10%;bottom:0;}
+.heroH-img img{height:520px;filter:drop-shadow(0 20px 50px rgba(0,0,0,.6));} */
+.heroH-img{position:absolute;right:8%;bottom:-20px;z-index:2;transform:rotate(-4deg);}
+.heroH-img img{height:600px;max-width:100%;display:block;filter:drop-shadow(0 30px 60px rgba(0,0,0,.45));transition:transform .6s ease, clip-path .6s ease;transform:rotate(-4deg) scale(1.08);
+/* 👇 stylish cut shape */clip-path:polygon(0 0,95% 3%,100% 100%,5% 97%);}
+.heroH-img img:hover{transform:translateY(-8px) rotate(1.5deg);}
+.heroH-img::before{content:"";position:absolute;inset:-40px;background:radial-gradient(circle at center,rgba(255,255,255,.25),transparent 70%);filter:blur(40px);z-index:-1;}
+
+/* Smooth Scroll Animation */
+/* Base for reveal */
+.reveal-left, .reveal-right, .reveal-top, .reveal-bottom {opacity:1;transform: translateX(0) translateY(0);transition: all 1s ease-out;}
+/* Direction offsets */
+.reveal-left{transform:translateX(-100px);}.reveal-right{transform:translateX(100px);}.reveal-top{transform:translateY(-100px);}.reveal-bottom{transform:translateY(100px);}
+/* Active state */
+.reveal-left.active,.reveal-right.active,.reveal-top.active,.reveal-bottom.active {opacity: 1;transform: translateX(0) translateY(0);}
+
+/* ---------- IMAGE GRID ---------- */
+.gallery{background-color: teal;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+.gallery img{height:320px;object-fit:cover;border-radius:30px;clip-path:polygon(0 10%,100% 0,90% 100%,0 90%)}
+
+/* ---------- SERVICES ---------- */
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px}
+.service{padding:50px;border-radius:40px;background:linear-gradient(145deg,#1a1a1a,#000);text-align:center}
+
+/* UI/UI Images Grid */
+.uxgrid-section{width:100vw;padding:120px 6%;background:linear-gradient(120deg,#0b132b,#1c2541,#3a506b);}
+/* FULL WIDTH CARD */
+.uxgrid-card{width:100%;padding:40px;border-radius:28px;background:rgba(255,255,255,0.08);backdrop-filter:blur(18px);
+border:1px solid rgba(255,255,255,0.25);box-shadow:0 0 50px rgba(0,0,0,.6);position:relative;}
+/* TITLE */
+.uxgrid-title{font-size:42px;color:#fff;margin-bottom:30px;letter-spacing:1px;}
+/* GRID LAYOUT – FULL WIDTH */
+.uxgrid-layout{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:22px;}
+/* IMAGE BOX */
+.uxgrid-item{border-radius:22px;overflow:hidden;position:relative;}
+/* IMAGE SAFE SIZE */
+.uxgrid-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease;}
+/* HOVER EFFECT */
+.uxgrid-item:hover img{transform:scale(1.08);}
+/* TALL IMAGE */
+.uxgrid-tall{grid-row:span 2;}
+/* WIDE IMAGE */
+.uxgrid-wide{grid-column:span 2;}
+/* OVERLAY */
+.uxgrid-item::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.35),transparent);}
+/* RESPONSIVE */
+@media(max-width:900px){.uxgrid-layout{grid-template-columns:repeat(2,1fr);grid-auto-rows:200px;}}
+*{margin:0;padding:0;box-sizing:border-box;}
+.neo-grid-section{width:100%;padding:60px 5vw;background:#050814;}
+.neo-grid-wrapper{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:22px;}
+/* common image style */
+.neo-item{overflow:hidden;border-radius:18px;}
+.neo-item img{width:100%;height:100%;object-fit:cover;display:block;}
+/* tall images */
+.neo-tall{grid-row:span 2;}
+/* left tall image */
+.neo-left{grid-column:1 / 2;grid-row:1 / 3;}
+/* right tall image – EXACT SAME LEVEL */
+.neo-right{grid-column:4 / 5;grid-row:1 / 3;}
+/* wide bottom image */
+.neo-wide{grid-column:2 / 4;}
+
+</style>
+</head>
+<body>
+<div id="progress-bar"></div>
+
+<nav>
+<h2>Ivy Grace</h2>
+<div class="nav-links">
+<ul>
+<li><a href="#"><i class="fas fa-house"></i>Home</a></li>
+<li><a href="#"><i class="fas fa-user"></i>About Me</a></li>
+<li><a href="#"><i class="fas fa-eye"></i>See My Works</a></li>
+<li><a href="#"><i class="fas fa-briefcase"></i>Experience</a></li>
+<li><a href="#"><i class="fas fa-trophy"></i>Achievements</a></li>
+<li><a href="#"><i class="fas fa-gem"></i>Billionaire</a></li>
+<li><a href="#"><i class="fas fa-envelope"></i>Contact</a></li>
+</ul>
+</div>
+<!-- Hamburger Icon -->
+<div class="menu-icon" id="menuIcon"><i class="fas fa-bars"></i></div>
+</nav>
+
+<section class="hero">
+<div id="type-name" style="font-size: 50px; font-family:'Dancing Script',cursive;font-weight: 400px; color:#ff004c;"></div>
+<h1 class="big-title">PORTFOLIO</h1>
+<div><span class="typing-text"><span id="typed"></span><span class="cursor">|</span></span></div>
+</section>
+
+<!-- Theme Toggle Button -->
+<div class="theme-toggle" onclick="toggleTheme()">
+  <i id="themeIcon" class="fas fa-moon"></i> Toggle Theme
+</div>
+
+<section class="puzzle reveal-right">
+  <div class="puzzle-img">
+    <img src="https://th.bing.com/th/id/R.20574068fa6452ceeeb2a106e000f386?rik=Ibohsb16%2bt3dwA&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f05%2fbeauty_women.jpg&ehk=wc%2fVpHfgmLBM1is%2b0q8X%2bqinMWbP4EKZ66iONTSOVdQ%3d&risl=&pid=ImgRaw&r=0" alt="image">
+  </div>
+<div class="stack">
+<div class="J1">J<i class="fa-regular fa-face-smile"></i>IN</div>
+<div class="M2">M<i class="fas fa-code-branch"></i></div>
+<div class="C3">C<i class="fa-regular fa-heart"></i>MM<i class="fas fa-link"></i>NITY</div>
+</div>
+</section>
+
+<!-- HERO -->
+<section class="heroH reveal-left">
+  <div class="heroH-content">
+    <h1>Design<br><span>With Intent</span></h1>
+    <p>Creating emotion-driven digital experiences for people & brands.</p>
+    <div class="typing" id="typing"></div>
+  </div>
+  <div class="heroH-img"><img src="https://tse1.explicit.bing.net/th/id/OIP.fBunxuGmFJO78NX2b9YOsgHaLG?w=1308&h=1960&rs=1&pid=ImgDetMain&o=7&rm=3" alt="image"></div>
+</section>
+
+<section class="reveal-right">
+<img src="https://www.10wallpaper.com/wallpaper/1600x1200/1609/pretty_cute_girl_lovely_sunlight-photo_HD_wallpaper_1600x1200.jpg" class="zigzag">
+</section>
+
+<section class="about reveal-left">
+<div class="img-grid-wrap">
+<img src="https://cdn.shopify.com/s/files/1/0163/6622/files/How_to_Brighten_Eyes_in_Photoshop.jpg?v=1692025572" class="cut1">
+</div>
+<p>I help founders, creators, and professionals show up with clarity, confidence, and consistency on LinkedIn. My work blends storytelling, strategic content, and personal brand voice development. This portfolio is a showcase — designed visually bold yet expressive.</p>
+</section>
+
+<section class="alt reveal-right">
+<p>I help founders, creators, and professionals show up with clarity, confidence, and consistency on LinkedIn. My work blends storytelling, strategic content, and personal brand voice development. This portfolio is a showcase — designed visually bold yet expressive.</p>
+<div class="img-grid-wrap">
+<img src="https://tse3.mm.bing.net/th/id/OIP.SM0uw8nJMDQ3ZU2D9Dt_wQHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain&o=7&rm=3" class="cut2">
+</div>
+</section>
+
+<section class="cards">
+<div class="card">450K+ Impressions Content</div>
+<div class="card">Times Square Feature</div>
+<div class="card">Topmate Top 1%</div>
+<div class="card">US Graduate Dean Scholar</div>
+</section>
+
+<!-- IMAGE GALLERY -->
+<section class="reveal-left">
+<h2 id="morphing-text">Visual Language</h2><br>
+<div class="gallery">
+<img src="https://img.freepik.com/premium-photo/portrait-beautiful-brunette-gray-isolated-background-luxurious-girl-with-beautiful-lips_120739-612.jpg">
+<img src="https://tse1.explicit.bing.net/th/id/OIP.b0ECU9PuLJE2dJdTms5t-AAAAA?w=417&h=626&rs=1&pid=ImgDetMain&o=7&rm=3">
+<img src="https://img.freepik.com/premium-photo/young-woman-black-top-standing_961875-148903.jpg">
+<img src="https://tse3.mm.bing.net/th/id/OIP.BNOcY78uPgONToAT6F8_aQAAAA?w=471&h=626&rs=1&pid=ImgDetMain&o=7&rm=3">
+<img src="https://img.freepik.com/premium-photo/beautiful-woman-stylish-midi-dress-ai-generated_881299-9199.jpg">
+<img src="https://external-preview.redd.it/f4ymJe-VO2RRBRaHbwAm-es9VLJgvwZfmftfrO1-X-k.jpg?auto=webp&s=df657387adc00144fc7bff257fdc792a6d825a8a">
+</div>
+</section>
+
+<section class="speech gridbg reveal-right">
+<img src="https://www.goodfreephotos.com/albums/people/beautiful-girl-with-long-hair-and-pretty-eyes.jpg" class="puzzle-img">
+<p>My resume reflects my learning journey in Data Analysis, and I continue to strengthen my data skills through hands-on practice and real-world projects. I am a passionate Data Analyst with practical experience in Excel, SQL, Power BI, Python, and automation, focusing on transforming raw data into actionable business insights and building effective reporting dashboards for data-driven decision-making.
+Over time, I have worked on multiple analytics projects involving data cleaning, visualization, and predictive modeling. This portfolio highlights my skills, certifications, and real-world projects, allowing you to explore my work, understand my learning outcomes, analytical approach, and practical problem-solving abilities.</p>
+</section>
+
+<section class="alt reveal-left">
+<p>My resume reflects my learning journey in Data Analysis, and I continue to strengthen my data skills through hands-on practice and real-world projects. I am a passionate Data Analyst with practical experience in Excel, SQL, Power BI, Python, and automation, focusing on transforming raw data into actionable business insights and building effective reporting dashboards for data-driven decision-making. Over time, I have worked on multiple analytics projects involving data cleaning, visualization, and predictive modeling. This portfolio highlights my skills, certifications, and real-world projects, allowing you to explore my work, understand my learning outcomes, analytical approach, and practical problem-solving abilities.</p>
+<img src="https://th.bing.com/th/id/R.62549b98a320014be5ace39960701eca?rik=Wt2SUKHB7ILaEA&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f03%2f1956341beautiful-girl.jpg&ehk=VixYhPwlYR6LCsfGIrOQAMrWNabWuOrCiQJJBHSu6X8%3d&risl=&pid=ImgRaw&r=0" class="puzzle-img">
+</section>
+
+<!-- SERVICES -->
+<section class="reveal-right">
+<div class="services">
+<div class="card">Personal Branding</div>
+<div class="card">Creative Direction</div>
+<div class="card">Visual Storytelling</div>
+</div>
+</section>
+
+<section class="alt gridbg reveal-left">
+<img src="https://godatenow.com/ladies/view/photo/b165619-3630ba9ab957e1bd8684386671930cb4.jpg">
+<p>My resume reflects my learning journey in Data Analysis, and I continue to strengthen my data skills through hands-on practice and real-world projects. I am a passionate Data Analyst with practical experience in Excel, SQL, Power BI, Python, and automation, focusing on transforming raw data into actionable business insights and building effective reporting dashboards for data-driven decision-making. Over time, I have worked on multiple analytics projects involving data cleaning, visualization, and predictive modeling. This portfolio highlights my skills, certifications, and real-world projects, allowing you to explore my work, understand my learning outcomes, analytical approach, and practical problem-solving abilities.</p>
+</section>
+
+<section class="postsP reveal-right">
+<img src="https://tse1.explicit.bing.net/th/id/OIP.UAZ-Q01vDDUkm88W1HjDywHaLH?w=900&h=1350&rs=1&pid=ImgDetMain&o=7&rm=3" class="cut3">
+<img src="https://i.pinimg.com/736x/e4/c3/28/e4c3285b2a0fe66b9939567beeb8610c.jpg" class="cut3">
+<img src="https://img.freepik.com/premium-photo/portrait-beautiful-brunette-luxurious-woman-with-beautiful-lips_120739-1039.jpg" class="cut3">
+<img src="https://tse3.mm.bing.net/th/id/OIP.w5MxDBoxfFLb35jos_MeNAHaPO?w=1440&h=2960&rs=1&pid=ImgDetMain&o=7&rm=3" class="cut3">
+</section>
+
+<section class="alt reveal-left">
+<div class="img-grid-wrap">
+<img src="https://tse4.mm.bing.net/th/id/OIP.BDxCtXgUqt7PjcsLoaa7EQHaLG?pid=ImgDet&w=184&h=276&c=7&dpr=1.3&o=7&rm=3" class="cut3">
+</div>
+<p>I help founders, creators, and professionals show up with clarity, confidence, and consistency on LinkedIn. My work blends storytelling, strategic content, and personal brand voice development. This portfolio is a showcase — designed visually bold yet expressive.</p>
+<p id="type-skill" style="font-size: 20px; font-family:'Dancing Script',cursive;font-weight: 400px; color:#ff004c;"></p>
+</section>
+
+<section class="container reveal-right">
+<div class="box">LinkedIn Ghostwriting</div>
+<div class="box">Personal Branding</div>
+<div class="box">Content Strategy</div>
+</section>
+
+<section class="posts reveal-left"> 
+<img src="https://tse1.explicit.bing.net/th/id/OIP.KCLKXVe1YrFM3i6ziTLsfQHaL2?w=800&h=1280&rs=1&pid=ImgDetMain&o=7&rm=3" class="cut5">
+<img src="https://images.hdqwalls.com/download/blonde-girl-in-depth-of-field-hd-rr-1080x1920.jpg" class="cut5">
+<img src="https://img.freepik.com/premium-photo/fashion-dress_1246590-1714.jpg" class="cut5">
+<img src="https://blog.step2love.com/wp-content/uploads/134866_ea55eb96.jpg" class="cut5">
+</section>
+
+<section class="quotes reveal-right">
+<div class="quote">Decide firmly, work relentlessly.</div>
+<div class="quote">The best gift you can give is a smile.</div>
+<div class="quote">True respect is valuing something while you still have it.</div>
+</section>
+
+<section class="alt reveal-left">
+<p>I help founders, creators, and professionals show up with clarity, confidence, and consistency on LinkedIn. My work blends storytelling, strategic content, and personal brand voice development. This portfolio is a showcase — designed visually bold yet expressive.</p>
+<div class="img-grid-wrap">
+<img src="https://th.bing.com/th/id/R.1e16512005b0bb21adac38ea339893c7?rik=24rA6EVJwraFig&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f99%2f62%2fiDVbug.jpg&ehk=h6%2brWsasCmomPI%2fCoVVomgeLELHhLNQnutj8t2f2QVU%3d&risl=&pid=ImgRaw&r=0" class="cut4">
+</div>
+</section>
+
+<section class="section reveal-right">
+<h2>Projects</h2>
+<img src="https://thumbs.dreamstime.com/b/beautiful-woman-long-brown-hair-glamour-portrait-model-fresh-makeup-romantic-wavy-hairstyle-fashion-shiny-45072693.jpg" class="cut3">
+<img src="https://i.pinimg.com/originals/0a/4a/ba/0a4aba044379ef9ff0608790ceeaf54c.jpg" class="cut3">
+</div>
+</section>
+
+<section class="neo-grid-section">
+  <div class="neo-grid-wrapper">
+
+    <div class="neo-item neo-tall neo-left">
+      <img src="https://rutadate.com/storage/photos/1/2007/20709/2275f87b15361edcc6e333119e3b9d48_popup.jpg">
+    </div>
+
+    <div class="neo-item">
+      <img src="https://wallpapers.com/images/hd/beautiful-girl-during-winter-gqctsy6q898vyea1.jpg">
+    </div>
+
+    <div class="neo-item">
+      <img src="https://www.10wallpaper.com/wallpaper/3840x2400/1807/Outdoor_sexy_beautiful_blonde_hair_girl_3840x2400.jpg">
+    </div>
+
+    <div class="neo-item neo-wide">
+      <img src="https://dummyimage.com/1200x600/ccc/000&text=LinkedIn+Proof">
+    </div>
+
+    <div class="neo-item neo-tall neo-right">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.dq49qdUkNIM_uqOCv-LK5gAAAA?rs=1&pid=ImgDetMain&o=7&rm=3">
+    </div>
+
+  </div>
+</section>
+
+<section class="connect reveal-right">
+<h2>CONNECT WITH ME</h2>
+<span id="mymail"></span><br>
+<div class="icons">
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-instagram"></i>
+<i class="fas fa-envelope"></i>
+<i class="fa-brands fa-x-twitter"></i>   
+</div>
+</section>
+
+<!-- Back to Top Button -->
+<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+
+
+<footer class="reveal-bottom">
+<div class="footer-links">
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Works</a>
+<a href="#">Projects</a>
+<a href="#">Achievements</a>
+<a href="#">LinkedIn</a>
+<a href="#">Contact</a>
+</div>
+<p>© Portfolio Showcase</p>
+</footer>
+
+<script>
+// Typing Text
+document.addEventListener("DOMContentLoaded", () => {
+
+  const words = [
+    "LinkedIn Ghostwriting",
+    "Personal Branding",
+    "Content Strategy"
+  ];
+
+  let wordIndex = 0;
+  let charIndex = 0;
+  let isTyping = true;
+
+  const typed = document.getElementById("typed");
+
+  function loop() {
+    const currentWord = words[wordIndex];
+
+    if (isTyping) {
+      // TYPE
+      typed.textContent = currentWord.slice(0, charIndex);
+      charIndex++;
+
+      if (charIndex > currentWord.length) {
+        isTyping = false;
+        setTimeout(loop, 800); // pause after full word
+        return;
+      }
+    } else {
+      // DELETE
+      charIndex--;
+      typed.textContent = currentWord.slice(0, charIndex);
+
+      if (charIndex === 0) {
+        isTyping = true;
+        wordIndex = (wordIndex + 1) % words.length;
+        setTimeout(loop, 400); // pause before next word
+        return;
+      }
+    }
+
+    setTimeout(loop, isTyping ? 80 : 60);
+  }
+
+  loop();
+});
+
+//* hamburger icon */
+const menuIcon = document.getElementById("menuIcon");
+const navLinks = document.querySelector(".nav-links");
+
+menuIcon.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+
+  const icon = menuIcon.querySelector("i");
+  if(navLinks.classList.contains("active")){
+    icon.classList.remove("fa-bars");
+    icon.classList.add("fa-xmark");
+  } else {
+    icon.classList.remove("fa-xmark");
+    icon.classList.add("fa-bars");
+  }
+});
+
+/* Typing Effect */
+const texts = ["Creative Developer", "Visual Storyteller", "Emotion Driven Designer"];
+let i=0,j=0,del=false;
+const el=document.getElementById("typing");
+
+function type(){
+  el.textContent = texts[i].substring(0,j);
+  if(!del && j++ === texts[i].length){del=true}
+  else if(del && j-- === 0){del=false;i=(i+1)%texts.length}
+  setTimeout(type,120);
+}
+type();
+
+/* ===== Typing Effect 2 : my mail ===== */
+const mailText = "Email: rajeevtiwari8055@gmail.com";
+const mailEl = document.getElementById("mymail");
+
+let mailIndex = 0;
+let mailDelete = false;
+
+function mymail() {
+  if (!mailDelete) {
+    mailEl.textContent = mailText.slice(0, mailIndex++);
+    if (mailIndex > mailText.length) {
+      setTimeout(() => mailDelete = true, 1000);
+    }
+  } else {
+    mailEl.textContent = mailText.slice(0, mailIndex--);
+    if (mailIndex === 0) {
+      mailDelete = false;
+    }
+  }
+}
+
+setInterval(mymail, 150);
+
+ // Toggle light mode class
+function toggleTheme() {
+  document.body.classList.toggle('light-mode');
+
+  // Toggle icon
+  const icon = document.getElementById('themeIcon');
+  if (document.body.classList.contains('light-mode')) {
+    icon.classList.replace('fa-moon', 'fa-sun'); // Dark → Light
+  } else {
+    icon.classList.replace('fa-sun', 'fa-moon'); // Light → Dark
+  }
+
+  // Save theme preference in localStorage
+  if(document.body.classList.contains('light-mode')){
+    localStorage.setItem('theme','light');
+  } else {
+    localStorage.setItem('theme','dark');
+  }
+}
+
+// Apply saved theme on page load
+(function(){
+  const savedTheme = localStorage.getItem('theme');
+  if(savedTheme === 'light'){
+    document.body.classList.add('light-mode');
+    document.getElementById('themeIcon').classList.replace('fa-moon','fa-sun');
+  }
+})();
+
+// Hero Animation Scroll
+window.addEventListener('scroll', () => {
+  const hero = document.querySelector('.hero');
+  if(window.scrollY > 50){
+    hero.classList.add('scrolled');
+  } else {
+    hero.classList.remove('scrolled');
+  }
+});
+
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.body.scrollHeight - window.innerHeight;
+  const scrolled = (scrollTop / docHeight) * 100;
+  document.getElementById('progress-bar').style.width = scrolled + '%';
+});
+
+
+// Smooth Scroll Animation
+window.addEventListener("scroll", () => {
+  const reveals = document.querySelectorAll(".reveal-left, .reveal-right, .reveal-top, .reveal-bottom");
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (top < windowHeight - 100) { // Trigger when 100px above bottom
+      el.classList.add("active");
+    }
+  });
+});
+
+// Hi, I'm Ivy
+const typeText = (el, words, speed=100) => {
+ let i=0,j=0,del=false;
+ setInterval(()=>{
+  el.textContent = words[i].substring(0,j);
+  if(!del && j++ === words[i].length){del=true}
+  if(del && j-- === 0){del=false;i=(i+1)%words.length}
+ },speed);
+}
+
+typeText(document.getElementById("type-name"),["Hi, I'm Ivy"]);
+typeText(document.getElementById("type-skill"),
+ ["LinkedIn | Top Mate | Instagram | YouTube | X"]);
+
+// morphingTexts
+const morphingTexts = ["Creative", "Innovative", "Professional"];
+let morphIndex = 0;
+const morphText = document.getElementById('morphing-text');
+
+setInterval(() => {
+  morphText.style.opacity = 0; // text fade out
+  setTimeout(() => {
+    morphText.textContent = morphingTexts[morphIndex]; // text change
+    morphText.style.opacity = 1;                        // fade in
+    morphIndex = (morphIndex + 1) % morphingTexts.length; // next text
+  }, 300);
+}, 2000);
+
+// BACK TO TOP BUTTON
+const topBtn = document.getElementById("topBtn");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {  // 300px scroll ke baad show
+    topBtn.style.display = "block";
+  } else {
+    topBtn.style.display = "none";
+  }
+});
+
+topBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+</script>
+
+<!--// Reveal animation on scroll
+const reveals = document.querySelectorAll(".reveal-left, .reveal-right, .reveal-top, .reveal-bottom");
+
+window.addEventListener("scroll", () => {
+  const triggerBottom = window.innerHeight / 1.2;
+  reveals.forEach(el => {
+    const elTop = el.getBoundingClientRect().top;
+    if(elTop < triggerBottom){
+      el.classList.add("active");
+    }
+  });
+}); -->
+
+</body>
+</html>
