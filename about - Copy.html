@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajeev Dataverse! Premium Portfolio Overview</title>
+
+<!-- Fonts & Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+/* THEME TOGGLING */
+body[data-theme="dark"] {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+body[data-theme="dark"] .card {
+  background: var(--card-dark);
+  color: inherit;
+}
+body[data-theme="dark"] .card h3 {
+  color: var(--purple);
+}
+
+body[data-theme="light"] {
+  background: var(--bg-light);
+  color: var(--text-light);
+}
+body[data-theme="light"] .card {
+  background: var(--card-light);
+  color: var(--text-light);
+}
+body[data-theme="light"] .card h3 {
+  color: var(--purple); /* keep title violet */
+}
+
+/* THEME TOGGLE BUTTON */
+
+
+/* THEME TOGGLE BUTTON */
+.theme-toggle {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 15px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1001;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  transition: none; /* no hover effects */
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* SCROLL PROGRESS BAR */
+#progressBar{
+  position: fixed; top:0; left:0; height:4px; background: var(--purple);
+  width:0%; z-index:9999; transition: width 0.25s ease-out;
+}
+
+:root{
+  --purple:#ff004c;       /* new violet */
+  --purple-dark:#cc003f;  /* darker shade for hover / shadows */
+  --glass:rgba(255,0,76,0.15); /* light transparent violet for glass effects */
+
+    /* THEME VARIABLES */
+  --bg-dark: #000000;       /* dark mode body */
+  --text-dark: #ffffff;     /* dark mode text */
+  --card-dark: #111111;     /* dark mode card */
+
+  --bg-light: #ffffff;      /* light mode body */
+  --text-light: #000000;    /* light mode text */
+  --card-light: #dddddd;    /* light mode card */
+
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#000000; /* pure black */
+  color:#fff;
+  overflow-x:hidden;
+}
+
+/* NAVBAR */
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  padding:14px 50px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:rgba(255,0,76,0.15);
+  backdrop-filter:blur(14px);
+  z-index:1000;
+  box-shadow:0 5px 20px rgba(0,0,0,0.8);
+}
+nav h2{color:var(--purple);}
+nav ul{display:flex;list-style:none;gap:20px;}
+nav ul li a{text-decoration:none;color:#fff;font-size:14px;position:relative;transition:.3s;}
+nav ul li a::after{content:'';position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--purple);transition:.4s;}
+nav ul li a:hover::after{width:100%;}
+nav ul li a:hover {color:var(--purple-dark);}
+.hamburger {display:none;font-size:24px;color:#fff;cursor:pointer;}
+
+/* HERO */
+#hero{
+  height:70vh;
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,0,76,0.6),
+      rgba(255,0,76,0.6)
+    ),
+    url("https://images.unsplash.com/photo-1522252234503-e356532cafd5");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  text-align:center;
+  position:relative;
+  box-shadow: inset 0 -80px 120px rgba(0,0,0,0.7);
+}
+
+/* Glass effect container */
+#hero > div{
+  background: rgba(255,0,76,0.12);
+  backdrop-filter: blur(14px);
+  padding: 30px 45px;
+  border-radius: 20px;
+  box-shadow: 0 25px 60px rgba(255,0,76,0.25);
+}
+
+/* Text */
+#hero h1{
+  font-size:48px;
+  margin-bottom:10px;
+  animation:slideIn 1.5s ease;
+  color: #fff;
+}
+
+#hero p{
+  font-size:20px;
+  margin-top:5px;
+}
+
+/* SECTIONS */
+section{
+  padding:90px 80px;
+  position:relative;
+}
+section h2{
+  text-align:center;
+  font-size:32px;
+  margin-bottom:40px;
+  position:relative;
+  color:var(--purple);
+}
+section h2::after{
+  content:"";
+  width:60px;
+  height:3px;
+  background:var(--purple);
+  display:block;
+  margin:10px auto 0;
+  border-radius:2px;
+}
+
+/* CARDS */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:30px;}
+.card{
+  background:#111111; /* dark grey */
+  backdrop-filter:blur(14px);
+  border-radius:22px;
+  padding:25px;
+  text-align:left;
+  box-shadow:0 20px 40px rgba(255,0,76,0.1);
+  transition:.5s;
+  position:relative;
+  overflow:hidden;
+  border:1px solid transparent;
+  color:inherit;
+}
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 35px 70px rgba(255,0,76,0.35);
+  border:1px solid var(--purple);
+  color:#fff;
+}
+.card h3{
+  margin-bottom:12px;
+  color:var(--purple);
+}
+.card ul{
+  list-style:disc inside;
+  margin-left:10px;
+}
+.card ul li{
+  margin-bottom:6px;
+  font-size:14px;
+  line-height:1.5em;
+}
+
+/* Footer */
+.site-footer{
+  background:#0a0a0a;
+  padding:40px 80px 30px;
+  color:#fff;
+  text-align:center;
+}
+.site-footer p{margin-top:20px;font-size:14px;color:#fff;}
+
+/* Floating Dots Animation */
+.floating-dots span{
+  position:fixed;
+  width:6px;
+  height:6px;
+  background:var(--purple);
+  border-radius:50%;
+  animation:float 10s linear infinite;
+  opacity:.6;
+}
+.floating-dots span:nth-child(1){left:10%;animation-delay:0s;}
+.floating-dots span:nth-child(2){left:30%;animation-delay:2s;}
+.floating-dots span:nth-child(3){left:60%;animation-delay:4s;}
+.floating-dots span:nth-child(4){left:80%;animation-delay:6s;}
+@keyframes float{0%{bottom:-10px}100%{bottom:110%}}
+
+/* Typing Animation */
+.typing-text{
+  font-family:'Fira Code', monospace;
+  font-size:24px;
+  font-weight:500;
+  color:var(--purple);
+  background-color:#111;
+  font-weight:bold;
+  padding:5px 10px;
+  display:inline-block;
+  border-right:2px solid #fff;
+  white-space:nowrap;
+  overflow:hidden;
+  animation: blink 0.8s infinite;
+}
+@keyframes blink{
+  0%,50%,100%{ border-color:#fff; }
+  25%,75%{ border-color:transparent; }
+}
+
+/* Slide Animation */
+@keyframes slideIn{from{transform:translateX(-80px);opacity:0;}to{transform:translateX(0);opacity:1;}}
+
+/* Responsive */
+@media(max-width:900px){
+  section{padding:60px 20px;}
+  #hero h1{font-size:36px;}
+  #hero p{font-size:16px;}
+}
+
+/* Date-Time-Status display */
+.rt-date-time {
+  position: absolute;
+  top: 95px;
+  right: 20px;
+  text-align: right;
+  font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+  color:inherit;
+  z-index: 10;
+  background: transparent;
+}
+
+.rt-date-time #current-date { font-size: 14px; font-weight: 300; }
+.rt-date-time #current-time { font-size: 14px; margin-top:2px; font-weight:300; }
+</style>
+
+</head>
+<body data-theme="dark">
+<!-- SCROLL PROGRESS BAR -->
+<div id="progressBar"></div>
+
+<!-- NAV -->
+<nav>
+  <h2 style="color: #fff;">Portfolio Overview</h2>
+    <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Date-Time-Status display -->
+<div class="rt-date-time">
+  <div id="current-date"></div>
+  <div id="current-time"></div>
+</div>
+
+<!-- Floating Dots -->
+<div class="floating-dots">
+  <span></span><span></span><span></span><span></span>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+<div>
+<h1>Rajeev Dataverse! <br>Digital Portfolio Solutions</h1>
+<span class="typing-text"></span>
+</div>
+</section>
+
+<!-- THEME TOGGLE BUTTON -->
+<button class="theme-toggle" onclick="toggleTheme()"><i class="fas fa-adjust"></i></button>
+
+<!-- FEATURES / SECTIONS -->
+<section id="features">
+<h2>Portfolio Design Showcase</h2>
+<div class="cards">
+
+<!-- Card 1 -->
+<div class="card">
+<h3>Title / Overview</h3>
+<ul>
+<li>A Premium Portfolio Designed to Stand Out on LinkedIn</li>
+<li>Modern, elegant & industry-ready personal portfolio</li>
+<li>Built with advanced UI/UX, animations & interactive elements</li>
+<li>Designed to impress recruiters and LinkedIn connections</li>
+<li>Focuses on storytelling and professional branding</li>
+<li>Combines aesthetics with functional design</li>
+<li>Ideal for learners and working professionals</li>
+</ul>
+</div>
+
+<!-- Card 2 -->
+<div class="card">
+<h3>Project Overview</h3>
+<ul>
+<li>Premium personal portfolio to represent professionals online</li>
+<li>Goes beyond resumes & LinkedIn profiles</li>
+<li>Focuses on credibility, visual storytelling, and modern web interaction</li>
+<li>Creates a strong digital identity for personal branding</li>
+<li>Combines clean design, smooth animations, and interactive logic</li>
+<li>Enhances professional visibility and engagement</li>
+</ul>
+</div>
+
+<!-- Card 3 -->
+<div class="card">
+<h3>Purpose</h3>
+<ul>
+<li>Designed for LinkedIn connections & beginner professionals</li>
+<li>Helps users without their personal website</li>
+<li>Acts as a digital identity and trust-building platform</li>
+<li>Makes self-representation easy, modern, and visually impactful</li>
+<li>Supports professional growth and credibility building</li>
+<li>Encourages users to showcase real skills confidently</li>
+</ul>
+</div>
+
+<!-- Card 4 -->
+<div class="card">
+<h3>Motive & Vision</h3>
+<ul>
+<li>Help learners & professionals stand out professionally</li>
+<li>Convert skills into visible credibility and reputation</li>
+<li>Provide a professional presence with zero complexity</li>
+<li>Bridge the gap between learning and showcasing skills</li>
+<li>Enable effective personal branding and recognition</li>
+<li>Encourage interactive and visually appealing presentation</li>
+</ul>
+</div>
+
+<!-- Card 5 -->
+<div class="card">
+<h3>Target Audience / Use Cases</h3>
+<ul>
+<li>Data Analysts, Data Scientists, Data Engineers</li>
+<li>AI / ML Engineers, DevOps Engineers, and IT professionals</li>
+<li>Working professionals & serious learners wanting recognition</li>
+<li>LinkedIn profile enhancement and personal branding</li>
+<li>Job and internship applications visibility</li>
+<li>Freelance identity and project showcase</li>
+<li>Portfolio for skill demonstration and credibility building</li>
+</ul>
+</div>
+
+<!-- Card 6 -->
+<div class="card">
+<h3>Why This Matters</h3>
+<ul>
+<li>LinkedIn profiles alone are limited in representation</li>
+<li>Recruiters prefer visually credible online portfolios</li>
+<li>Personal websites increase trust and professional credibility</li>
+<li>Helps beginners compete professionally with established profiles</li>
+<li>Supports skill demonstration beyond text resumes</li>
+<li>Creates a strong first impression on viewers</li>
+</ul>
+</div>
+
+<!-- Card 7 -->
+<div class="card">
+<h3>Website Structure Overview</h3>
+<ul>
+<li>Hero Section with dynamic visuals</li>
+<li>About Me section with interactive storytelling</li>
+<li>Skills section with professional representation</li>
+<li>Experience section highlighting real work</li>
+<li>Projects, Certifications, Contact Me, and Footer</li>
+<li>Each section designed for clarity, flow, and storytelling</li>
+</ul>
+</div>
+
+<!-- Card 8 -->
+<div class="card">
+<h3>Hero Section</h3>
+<ul>
+<li>Attractive full-width hero layout with visuals</li>
+<li>Dynamic “I’m Ritu” name animation effect</li>
+<li>Running dynamic skills line showing expertise</li>
+<li>Live date & time display for interaction</li>
+<li>Theme-matched waving water animation</li>
+<li>Creates instant attention and viewer trust</li>
+</ul>
+</div>
+
+<!-- Card 9 -->
+<div class="card">
+<h3>Navigation Bar</h3>
+<ul>
+<li>Profile photo and name included in navbar</li>
+<li>Glassmorphism blur effect for premium look</li>
+<li>Smooth hover underline animation for navigation</li>
+<li>Transparent and modern interface design</li>
+<li>Rarely used advanced portfolio feature</li>
+<li>Improves overall site branding and readability</li>
+</ul>
+</div>
+
+<!-- Card 10 -->
+<div class="card">
+<h3>About Me Section</h3>
+<ul>
+<li>Animated heading effect to attract attention</li>
+<li>Focused professional summary of skills & journey</li>
+<li>Resume-oriented storytelling with clear highlights</li>
+<li>Call-to-action driven for downloads or contact</li>
+<li>Clean design without long, boring paragraphs</li>
+<li>Creates credibility and professional representation</li>
+</ul>
+</div>
+
+<!-- Card 11 -->
+<div class="card">
+<h3>Skills Section</h3>
+<ul>
+<li>Dynamic percentage skill bars for visual impact</li>
+<li>SVG-based technology icons for modern and interactive look</li>
+<li>Clean card layout for easy understanding and navigation</li>
+<li>Professional skill strength display for recruiters and peers</li>
+<li>Highlights both tools and technical expertise comprehensively</li>
+<li>Shows industry-standard skill representation for credibility</li>
+</ul>
+</div>
+
+<!-- Card 12 -->
+<div class="card">
+<h3>Card Hover Effects</h3>
+<ul>
+<li>Hover changes text & border color to violet for interactivity</li>
+<li>Thin animated borders enhance visual appeal</li>
+<li>Soft shadow depth creates realistic 3D effect</li>
+<li>Glass-style card surface for premium design aesthetics</li>
+<li>Smooth transitions and interactive feel for engagement</li>
+<li>Enhances user experience and overall UI appeal</li>
+</ul>
+</div>
+
+<!-- Card 13 -->
+<div class="card">
+<h3>Button Interactions</h3>
+<ul>
+<li>Pressure-based hover animation for realistic interaction</li>
+<li>Smooth 60° rotation effect on hover for unique experience</li>
+<li>Provides intuitive feedback to users</li>
+<li>Very uncommon on standard portfolio websites</li>
+<li>Enhances visual appeal and interactivity</li>
+<li>Adds a premium interactive experience to the UI</li>
+</ul>
+</div>
+
+<!-- Card 14 -->
+<div class="card">
+<h3>Experience Section</h3>
+<ul>
+<li>Detailed experience cards for clarity and readability</li>
+<li>Honest learning & work highlights without exaggeration</li>
+<li>Clean zig-zag layout movement (left-right alternating)</li>
+<li>Professional storytelling approach for career journey</li>
+<li>Enhances readability and user engagement</li>
+<li>Builds trust with transparent experience display</li>
+</ul>
+</div>
+
+<!-- Card 15 -->
+<div class="card">
+<h3>Projects Showcase</h3>
+<ul>
+<li>Each project presented in a dedicated interactive card</li>
+<li>Clickable project titles for detailed view</li>
+<li>Hover text color transitions for engagement</li>
+<li>Skill-specific SVG icons (Excel, Python, SQL, etc.)</li>
+<li>Clear domain-wise categorization for clarity</li>
+<li>Demonstrates real skills and project credibility</li>
+</ul>
+</div>
+
+<!-- Card 16 -->
+<div class="card">
+<h3>Certifications</h3>
+<ul>
+<li>Platform-specific SVG icons (Microsoft, Canva, Google, etc.)</li>
+<li>Clickable proof links for verification and trust</li>
+<li>Visual trust enhancement for recruiters</li>
+<li>Clean grid-based layout for easy readability</li>
+<li>Highlights real achievements & recognized skills</li>
+<li>Adds professional credibility to the portfolio</li>
+</ul>
+</div>
+
+<!-- Card 17 -->
+<div class="card">
+<h3>Contact Me</h3>
+<ul>
+<li>Click-to-call opens dial pad automatically</li>
+<li>Email opens with prefilled subject & message</li>
+<li>No rewriting required for user convenience</li>
+<li>Rare falling hover animation on icons for visual appeal</li>
+<li>Icon rotation on hover for interactive experience</li>
+<li>Makes contacting professional, quick, and engaging</li>
+</ul>
+</div>
+
+<!-- Card 18 -->
+<div class="card">
+<h3>JavaScript Features</h3>
+<ul>
+<li>Dynamic name typing animation for interactive effect</li>
+<li>Skills typing animation for visual storytelling</li>
+<li>Live date & time update dynamically</li>
+<li>Smooth scrolling behavior across all sections</li>
+<li>Section-based animation logic for storytelling</li>
+<li>Performance-optimized scripts for fast loading</li>
+</ul>
+</div>
+
+<!-- Card 19 -->
+<div class="card">
+<h3>UI/UX Design</h3>
+<ul>
+<li>Clean and eye-friendly website layout for easy reading</li>
+<li>No over-crowding of sections or content</li>
+<li>Elegant spacing & alignment for professional feel</li>
+<li>Premium scroll experience for smooth navigation</li>
+<li>Glassmorphism UI effects for modern premium appearance</li>
+<li>Smooth hover animations on cards, buttons & links</li>
+<li>Dynamic typing and motion effects using JavaScript</li>
+<li>Responsive design optimized for all screen sizes</li>
+</ul>
+</div>
+
+<!-- Card 20 -->
+<div class="card">
+<h3>Tools & Technologies</h3>
+<ul>
+<li>HTML5 for structured content and semantic layout</li>
+<li>CSS3 with advanced animations & glassmorphism</li>
+<li>JavaScript for dynamic and interactive website features</li>
+<li>Bootstrap concepts for responsive design</li>
+<li>SVG Icons for clean, modern visuals</li>
+<li>VS Code & GitHub for development & version control</li>
+<li>ChatGPT for content generation & logic assistance</li>
+</ul>
+</div>
+
+<!-- Card 21 -->
+<div class="card">
+<h3>Business Problems Solved</h3>
+<ul>
+<li>Lack of personal branding platforms for professionals online</li>
+<li>Limited visibility on LinkedIn and professional networks</li>
+<li>Over-dependency on resumes for skill credibility</li>
+<li>Poor skill presentation and recognition for beginners</li>
+<li>Difficulty in showcasing talent effectively</li>
+<li>Provides a professional platform for personal branding</li>
+</ul>
+</div>
+
+<!-- Card 22 -->
+<div class="card">
+<h3>LinkedIn Credibility</h3>
+<ul>
+<li>Improves profile trust and professional perception</li>
+<li>Boosts recruiter engagement and visibility</li>
+<li>Makes profile stand out among peers</li>
+<li>Acts as live proof of skills & projects</li>
+<li>Enhances professional networking opportunities</li>
+<li>Supports long-term career growth and recognition</li>
+</ul>
+</div>
+
+<!-- Card 23 -->
+<div class="card">
+<h3>Future Enhancements</h3>
+<ul>
+<li>Blog integration for content sharing and thought leadership</li>
+<li>Admin panel for content control & updates</li>
+<li>Analytics tracking for website performance insights</li>
+<li>Dark / Light theme toggle for user preference</li>
+<li>Performance optimization for faster loading</li>
+<li>Additional interactive features for engagement</li>
+</ul>
+</div>
+
+<!-- Card 24 -->
+<div class="card">
+<h3>Footer Design</h3>
+<ul>
+<li>Quick links for easy website navigation</li>
+<li>Privacy Policy for professional trust and transparency</li>
+<li>Terms & Conditions for compliance and credibility</li>
+<li>Hover underline effects for modern design appeal</li>
+<li>Elegant industry-level finishing for aesthetics</li>
+<li>Completes professional branding of the portfolio</li>
+</ul>
+</div>
+
+<!-- Card 25 -->
+<div class="card">
+<h3>Final Words</h3>
+<ul>
+<li>Modern, elegant, LinkedIn-ready premium portfolio</li>
+<li>Designed for professionals who want to stand out</li>
+<li>Enhances credibility and online professional image</li>
+<li>Encourages confidence in self-representation</li>
+<li>Serves as a personal branding and career tool</li>
+<li>Combines design, interactivity, and storytelling elements</li>
+</ul>
+</div>
+
+<!-- Card 26 -->
+<div class="card">
+<h3>Connect With Me</h3>
+<ul>
+<li>Let’s build professional digital identities together</li>
+<li>Designed for learners, professionals & future leaders</li>
+<li>Collaboration opportunities for portfolio enhancement</li>
+<li>Professional networking and skill visibility</li>
+<li>Encourages sharing knowledge and projects</li>
+<li>Builds a strong online presence for long-term growth</li>
+</ul>
+</div>
+
+<!-- Card 27 -->
+<div class="card">
+<h3>Thank You</h3>
+<ul>
+<li>Thank you for your time & attention</li>
+<li>Designed to help professionals stand out effectively</li>
+<li>Build credibility and represent skills confidently</li>
+<li>LinkedIn and beyond professional showcase</li>
+<li>Modern, elegant, industry-ready portfolio design</li>
+<li>Encourages further interaction & networking</li>
+<li>Leaves a lasting positive impression</li>
+</ul>
+</div>
+
+<!-- Card 28 -->
+<div class="card">
+  <h3>Client-Friendly Single File Architecture</h3>
+  <ul>
+  <li>Single-File Architecture – Entire website built in one HTML file with embedded CSS & JavaScript for simplicity and faster understanding.</li>
+  <li>GitHub-Ready Structure – Easy to clone, edit, and push updates directly from the repository without complexity.</li>
+  <li>Client-Editable Design – Clients can make required changes by editing only the index.html file confidently.</li>
+  <li>Minimal Folder Layout – Simple and organized structure with images, policy pages, and a clear README file.</li>
+  <li>Easy Maintenance & Upgrades – Centralized code allows quick updates, improvements, and future enhancements.</li>
+  <li>Beginner-Friendly & Professional – Clean, readable code suitable for both clients and developers.</li>
+  </ul>
+</div>
+
+<!-- Card 29 -->
+<div class="card">
+  <h3>Interactive Features of the Website</h3>
+  <ul>
+  <li>Experience Overview – Provides a clear preview of the website’s design quality and interaction flow.</li>
+  <li>Thoughtful Interactivity – Interactive elements are strategically placed to enhance user engagement.</li>
+  <li>Embedded Interactive Link – Redirects users to a fully functional website.</li>
+  <li>Premium User Experience – Smooth navigation with a clean and professional interface.</li>
+  <li>Feature Showcase – Highlights key properties, tools, and core functionalities.</li>
+  <li>Professional Presentation – Elegant layout supported by soft and smooth animations.</li>
+  <li>Client-Friendly Design – Easy to read, engaging, and simple to understand.</li>
+  <li>Immersive Interaction – Delivers a modern, high-quality digital experience.</li>
+  </ul>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="text-align:center;">
+<h2>Contact Me</h2>
+<p><a href="mailto:rajeevtiwari8055@gmail.com?subject=Hi%20Rajeev&body=I%20visited%20your%20website%20and%20wanted%20to%20connect%20with%20you!" style="color: inherit; text-decoration: none;" onmouseover="this.style.color='#b388ff'" onmouseout="this.style.color='inherit'"><i class="fas fa-envelope"></i> rajeevtiwari8055@gmail.com↗</a></p>
+<p><a href="https://www.linkedin.com/in/rajeevtiwari8055" target="_blank" style="color: inherit; text-decoration: none;" onmouseover="this.style.color='#b388ff'" onmouseout="this.style.color='inherit'"> <i class="fab fa-linkedin-in"></i> Rajeev Dataverse↗</a></p>
+<p><a href="https://rajeevtiwari8055.github.io/" target="_blank" style="color: inherit; text-decoration: none;" onmouseover="this.style.color='#b388ff'" onmouseout="this.style.color='inherit'"><i class="fas fa-globe"></i> Website↗</a></p>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <p>© <span id="year"></span> <span style="color: #b388ff;">Rajeev Dataverse!</span> Digital Portfolio Solutions | All rights reserved</p>
+</footer>
+
+<script>
+  // Dynamic Year
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+<script>
+// Typing Properties
+const text = "Interactive, Elegant & Professional";
+let idx = 0;
+let forward = true; // typing forward or backward
+
+function typingLoop(){
+  const el = document.querySelector('.typing-text');
+
+  if(forward){
+    el.innerHTML = text.substring(0, idx);
+    idx++;
+    if(idx > text.length){
+      forward = false;
+      setTimeout(typingLoop, 1000); // pause at end
+      return;
+    }
+  } else {
+    el.innerHTML = text.substring(0, idx);
+    idx--;
+    if(idx < 0){
+      forward = true;
+      setTimeout(typingLoop, 500); // pause at start
+      return;
+    }
+  }
+  setTimeout(typingLoop, 100);
+}
+
+window.onload = typingLoop;
+</script>
+
+<script>
+  // Date & Time (Home)
+  function updateDateTime() {
+    const now = new Date();
+
+    const dateOptions = {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    };
+
+    const dateString = now.toLocaleDateString("en-US", dateOptions);
+
+    const timeString = now.toLocaleTimeString("en-US", {
+      hour: "numeric",
+      minute: "numeric",
+      second: "numeric",
+      hour12: true
+    });
+
+    document.getElementById("current-date").innerText = dateString;
+    document.getElementById("current-time").innerText = timeString;
+  }
+
+  setInterval(updateDateTime, 1000);
+  updateDateTime();
+</script>
+
+<script>
+  // Navigation bar
+function toggleMenu(){
+  const navLinks = document.querySelector("nav ul.nav-links");
+  navLinks.classList.toggle("show");
+}
+
+// THEME TOGGLE
+// function toggleTheme(){document.body.dataset.theme=document.body.dataset.theme==="dark"?"light":"dark";}
+
+function toggleTheme() {
+  const body = document.body;
+  const btn = document.querySelector('.theme-toggle');
+
+  if (body.dataset.theme === "dark") {
+    // Switch to light theme
+    body.dataset.theme = "light";
+    btn.innerHTML = '<i class="fas fa-sun"></i> Light Theme'; // sun icon + text
+    btn.style.background = "#fff"; // button bg white
+    btn.style.color = "#000";       // text black
+  } else {
+    // Switch to dark theme
+    body.dataset.theme = "dark";
+    btn.innerHTML = '<i class="fas fa-moon"></i> Dark Theme'; // moon icon + text
+    btn.style.background = "#000";      // button bg black
+    btn.style.color = "#ff004c";        // text violet for dark theme
+  }
+}
+
+// Set initial button state on page load
+window.onload = function() {
+  const btn = document.querySelector('.theme-toggle');
+  btn.innerHTML = '<i class="fas fa-moon"></i> Dark Theme'; // default
+  btn.style.background = "#000";  // black bg
+  btn.style.color = "#ff004c";    // violet text
+}
+
+// SCROLL PROGRESS
+window.onscroll=function(){
+  const winScroll=document.body.scrollTop || document.documentElement.scrollTop;
+  const height=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+  const scrolled=(winScroll/height)*100;
+  document.getElementById("progressBar").style.width=scrolled+"%";
+}
+
+</script>
+
+</body>
+</html>
