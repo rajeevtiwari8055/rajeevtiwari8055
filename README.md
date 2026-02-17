@@ -350,7 +350,7 @@ Each project reflects my ability to turn raw information into meaningful, busine
 <img src="Color Loading.gif" alt="Streak" width="50">&nbsp;***GitHub Streak***
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055&theme=dark&background=000000&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=AAAAAA) 
 <!-- <img src="https://streak-stats.demolab.com?user=rajeevtiwari8055 &locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  /> -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055&theme=red" alt="Streak Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rajeevtiwari8055&theme=black" alt="Streak Stats" />
 
 
 
