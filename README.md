@@ -435,5 +435,5 @@ Each project reflects my ability to turn raw information into meaningful, busine
 
 <!-- Then end of my GitHub profile -->
 
-<img align="right" alt="Rajeev" width="50" src="VM.png" />
+<img align="right" alt="Rajeev" width="50" src="VM.svg" />
 <img align="right" alt="Rajeev" width="50" src="VM1.png" />
