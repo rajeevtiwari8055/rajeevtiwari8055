@@ -434,3 +434,6 @@ Each project reflects my ability to turn raw information into meaningful, busine
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0080FF&height=120&section=footer" width="100%"/>
 
 <!-- Then end of my GitHub profile -->
+
+<img align="right" alt="Rajeev" width="50" src="VM.png" />
+<img align="right" alt="Rajeev" width="50" src="VM1.png" />
