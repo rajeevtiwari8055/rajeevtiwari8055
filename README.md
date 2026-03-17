@@ -10,6 +10,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:0080FF&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
 </div>
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:A855F7&height=200&section=header&text=Aspiring%20Data%20Analyst!&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20Solutions,%20One%20Line%20at%20a%20Time&descAlignY=55&descSize=20" width="100%"/>
+</div>
+
 
 
 <!-- Aspiring Data Analyst -->
