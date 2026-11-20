@@ -355,10 +355,10 @@ Each project reflects my ability to turn raw information into meaningful, busine
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajeevtiwari8055&theme=nightowl&bg_color=000000&hide_border=true"/>
 </div>
 
-<!-- ## 🐍 Snake Contribution Animation -->
+<!-- ## 🐍 GitHub Snake Contribution Animation -->
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG5sc3YzYXQ1ZzI1dzNqenQ1ZmxsZzE2dDlqdzZmZ3d5bW5jajl0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kEKcOWl8RMLde/giphy.webp" width="30">&nbsp;***Snake Contribution Animation***
 
-<!-- Pink Snake Animation -->
+<!-- GitHub Pink Snake Animation -->
 <div align="center">
  
 ![snake animation](https://github.com/rajeevtiwari8055/rajeevtiwari8055/blob/output/github-snake-dark.svg)
